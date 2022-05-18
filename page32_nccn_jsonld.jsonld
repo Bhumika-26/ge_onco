@@ -1,0 +1,166 @@
+{
+  "@context": {
+    "nccn": "http://nccn-guideline.org/vocab#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "nccn:next": {
+      "@type": "@id"
+    },
+    "nccn:prev": {
+      "@type": "@id"
+    },
+	"nccn:contains": {
+	 "@type":"@id"
+	},
+	"nccn:reference": {
+	 "@type":"@id"
+	}
+  },
+  "@graph": [
+    {
+      "@id": "http://nccn-guideline.org/vocab/0",
+      "@type": "nccn:CLINICAL ASSESSMENT",
+      "nccn:content": "Stage IIIB (T1–2, N3)Stage IIIC (T3, N3)",
+      "nccn:prev": [],
+      "nccn:next": [
+        "http://nccn-guideline.org/vocab/1"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/vocab/1",
+      "@type": "nccn:PRETREATMENT EVALUATION",
+      "nccn:contains": ["http://nccn-guideline.org/vocab/1a","http://nccn-guideline.org/vocab/1b","http://nccn-guideline.org/vocab/1c","http://nccn-guideline.org/vocab/1d"],
+      "nccn:prev": [
+        "http://nccn-guideline.org/vocab/0"
+      ],
+      "nccn:next": ["http://nccn-guideline.org/vocab/2","http://nccn-guideline.org/vocab/3","http://nccn-guideline.org/vocab/4"]
+    },
+    {
+      "@id": "http://nccn-guideline.org/vocab/2",
+      "@type": "nccn:PRETREATMENT EVALUATION",
+      "nccn:content": "N3 negative",
+      "nccn:prev": [
+        "http://nccn-guideline.org/vocab/1"
+      ],
+      "nccn:next": ["http://nccn-guideline.org/vocab/5"]
+    },
+	{
+      "@id": "http://nccn-guideline.org/vocab/3",
+      "@type": "nccn:PRETREATMENT EVALUATION",
+      "nccn:content": "N3 positive",
+      "nccn:prev": [
+        "http://nccn-guideline.org/vocab/1"
+      ],
+      "nccn:next": ["http://nccn-guideline.org/vocab/6"]
+    },
+	{
+      "@id": "http://nccn-guideline.org/vocab/4",
+      "@type": "nccn:PRETREATMENT EVALUATION",
+      "nccn:content": "Metastatic disease",
+      "nccn:prev": [
+        "http://nccn-guideline.org/vocab/1"
+      ],
+      "nccn:next": ["http://nccn-guideline.org/vocab/7"]
+    },
+	{
+      "@id": "http://nccn-guideline.org/vocab/5",
+      "@type": "nccn:INITIAL TREATMENT",
+      "nccn:content": "Initial treatment for stage I–IIIA (NSCL-9)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/vocab/2"
+      ],
+      "nccn:next": []
+    },
+	{
+      "@id": "http://nccn-guideline.org/vocab/6",
+      "@type": "nccn:INITIAL TREATMENT",
+      "nccn:content": "Definitive concurrent chemoradiation{l},{t} (category 1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/vocab/3"
+      ],
+      "nccn:next": ["http://nccn-guideline.org/vocab/9"],
+	  "nccn:reference": ["http://nccn-guideline.org/vocab/l","http://nccn-guideline.org/vocab/t"]
+    },
+	{
+      "@id": "http://nccn-guideline.org/vocab/7",
+      "@type": "nccn:INITIAL TREATMENT",
+      "nccn:content": "Treatment for Metastasis limited sites (NSCL-14) or distant disease (NSCL-17)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/vocab/4"
+      ],
+      "nccn:next": []
+    },
+	{
+      "@id": "http://nccn-guideline.org/vocab/8",
+      "@type": "nccn:INITIAL TREATMENT",
+      "nccn:content": "Surveillance (NSCL-16)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/vocab/9"
+      ],
+      "nccn:next": []
+    },
+	{
+      "@id": "http://nccn-guideline.org/vocab/9",
+      "@type": "nccn:INITIAL TREATMENT",
+      "nccn:content": "Durvalumab{t},{u} (category 1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/vocab/6"
+      ],
+      "nccn:next": ["http://nccn-guideline.org/vocab/8"],
+	  "nccn:reference": ["http://nccn-guideline.org/vocab/t","http://nccn-guideline.org/vocab/u"]
+    },
+	{
+      "@id": "http://nccn-guideline.org/vocab/j",
+      "@type": "nccn:Footnote",
+      "nccn:content": "PET/CT performed skull base to knees or whole body. Positive PET/CT scan findings for distant disease need pathologic or other radiologic confirmation. If PET/CT scan is positive in the mediastinum, lymph node status needs pathologic confirmation."
+      
+    },
+	{
+      "@id": "http://nccn-guideline.org/vocab/l",
+      "@type": "nccn:Footnote",
+      "nccn:content": "Principles of Radiation Therapy (NSCL-C)."
+      
+    },
+	{
+      "@id": "http://nccn-guideline.org/vocab/o",
+      "@type": "nccn:Footnote",
+      "nccn:content": "If MRI is not possible, CT of head with contrast."
+      
+    },
+	{
+      "@id": "http://nccn-guideline.org/vocab/t",
+      "@type": "nccn:Footnote",
+      "nccn:content": "Concurrent Chemoradiation Regimens (NSCL-F)."
+      
+    },
+	{
+      "@id": "http://nccn-guideline.org/vocab/u",
+      "@type": "nccn:Footnote",
+      "nccn:content": "Durvalumab is not recommended for patients following definitive surgical resection."
+      
+    },
+	{
+      "@id": "http://nccn-guideline.org/vocab/1a",
+      "@type": "nccn:PRETREATMENT EVALUATION",
+      "nccn:content": "PFTs (if not previously done)"
+       
+    },
+	{
+      "@id": "http://nccn-guideline.org/vocab/1b",
+      "@type": "nccn:PRETREATMENT EVALUATION",
+      "nccn:content": "FDG PET/CT scan{j} (if not previously done)",
+      "nccn:reference": "http://nccn-guideline.org/vocab/j"
+    },
+	{
+      "@id": "http://nccn-guideline.org/vocab/1c",
+      "@type": "nccn:PRETREATMENT EVALUATION",
+      "nccn:content": "Brain MRI with contrast{o}",
+      "nccn:reference": "http://nccn-guideline.org/vocab/o"
+    },
+	{
+      "@id": "http://nccn-guideline.org/vocab/1d",
+      "@type": "nccn:PRETREATMENT EVALUATION",
+      "nccn:content": "Pathologic confirmation of N3 disease by:\u0017Mediastinoscopy\u0017Supraclavicular lymph node biopsy \u0017Thoracoscopy \u0017Needle biopsy \u0017Mediastinotomy \u0017EUS biopsy\u0017EBUS biopsy"
+      
+    }
+  ]
+}

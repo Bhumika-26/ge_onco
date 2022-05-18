@@ -1,0 +1,5033 @@
+{
+  "@context": {
+    "nccn": "http://nccn-guideline.org/nsclc#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "nccn:next": {
+      "@type": "@id"
+    },
+    "nccn:prev": {
+      "@type": "@id"
+    },
+    "nccn:contains": {
+      "@type": "@id"
+    },
+    "nccn:reference": {
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "http://nccn-guideline.org/nsclc/0",
+      "nccn:page-key": "NSCL-1",
+      "nccn:page-no": 20,
+      "@type": [
+        "PATHOLOGIC DIAGNOSIS OF NSCLC"
+      ],
+      "nccn:content": "NSCLC",
+      "nccn:prev": [],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/1"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/1",
+      "nccn:page-key": "NSCL-1",
+      "nccn:page-no": 20,
+      "@type": [
+        "PATHOLOGIC DIAGNOSIS OF NSCLC",
+        "INITIAL EVALUATION"
+      ],
+      "nccn:content": "• Pathology reviewa• H\u0026P (include performance  status + weight loss)b• CT chest and upper  abdomen with contrast, including adrenals • CBC, platelets• Chemistry profile• Smoking cessation advice, counseling, and  pharmacotherapy\u0017Use the 5 A’s Framework:  Ask, Advise, Assess,  Assist, Arrange http://www.ahrq.gov/clinic/tobacco/5steps.htm • Integrate palliative carec  NCCN Guidelines for Palliative Care• For tools to aid in the optimal assessment and management of older adults, see the NCCN Guidelines for Older Adult Oncology",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/0"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/2",
+        "http://nccn-guideline.org/nsclc/3",
+        "http://nccn-guideline.org/nsclc/11",
+        "http://nccn-guideline.org/nsclc/3",
+        "http://nccn-guideline.org/nsclc/10",
+        "http://nccn-guideline.org/nsclc/4",
+        "http://nccn-guideline.org/nsclc/9",
+        "http://nccn-guideline.org/nsclc/5",
+        "http://nccn-guideline.org/nsclc/8",
+        "http://nccn-guideline.org/nsclc/6",
+        "http://nccn-guideline.org/nsclc/7"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/2",
+      "nccn:page-key": "NSCL-1",
+      "nccn:page-no": 20,
+      "@type": [
+        "CLINICAL STAGE",
+        "Stage IA, peripherald (T1abc, N0)"
+      ],
+      "nccn:content": "Stage IVB (M1c)c disseminated metastases",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/1"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/22"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/3",
+      "nccn:page-key": "NSCL-1",
+      "nccn:page-no": 20,
+      "@type": [
+        "CLINICAL STAGE",
+        "Stage IA, peripherald (T1abc, N0)"
+      ],
+      "nccn:content": "Stage IB, peripherald (T2a, N0);  Stage I, centrald (T1abc–T2a, N0);  Stage II (T1abc–T2ab, N1; T2b, N0); Stage IIB (T3, N0)e; Stage IIIA (T3, N1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/1",
+        "http://nccn-guideline.org/nsclc/1"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/13",
+        "http://nccn-guideline.org/nsclc/12"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/4",
+      "nccn:page-key": "NSCL-1",
+      "nccn:page-no": 20,
+      "@type": [
+        "CLINICAL STAGE",
+        "Stage IA, peripherald (T1abc, N0)"
+      ],
+      "nccn:content": "Stage IIBf (T3 invasion, N0);Stage IIIAf (T4 extension, N0–1; T3, N1; T4, N0–1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/1"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/14"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/5",
+      "nccn:page-key": "NSCL-1",
+      "nccn:page-no": 20,
+      "@type": [
+        "CLINICAL STAGE",
+        "Stage IA, peripherald (T1abc, N0)"
+      ],
+      "nccn:content": "Stage IIIAf (T1–2, N2); Stage IIIB (T3, N2) ",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/1"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/15"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/6",
+      "nccn:page-key": "NSCL-1",
+      "nccn:page-no": 20,
+      "@type": [
+        "CLINICAL STAGE",
+        "Stage IA, peripherald (T1abc, N0)"
+      ],
+      "nccn:content": "Separate pulmonary nodule(s) (Stage IIB, IIIA, IV)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/1"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/16"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/7",
+      "nccn:page-key": "NSCL-1",
+      "nccn:page-no": 20,
+      "@type": [
+        "CLINICAL STAGE",
+        "Stage IA, peripherald (T1abc, N0)"
+      ],
+      "nccn:content": "Multiple lung cancers",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/1"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/17"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/8",
+      "nccn:page-key": "NSCL-1",
+      "nccn:page-no": 20,
+      "@type": [
+        "CLINICAL STAGE",
+        "Stage IA, peripherald (T1abc, N0)"
+      ],
+      "nccn:content": "Stage IIIBf (T1–2, N3); Stage IIIC (T3, N3) ",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/1"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/18"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/9",
+      "nccn:page-key": "NSCL-1",
+      "nccn:page-no": 20,
+      "@type": [
+        "CLINICAL STAGE",
+        "Stage IA, peripherald (T1abc, N0)"
+      ],
+      "nccn:content": "Stage IIIBf (T4, N2); Stage IIIC (T4, N3)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/1"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/20"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/10",
+      "nccn:page-key": "NSCL-1",
+      "nccn:page-no": 20,
+      "@type": [
+        "CLINICAL STAGE",
+        "Stage IA, peripherald (T1abc, N0)"
+      ],
+      "nccn:content": "Stage IVA (M1a)c (pleural or pericardial effusion)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/1"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/19"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/11",
+      "nccn:page-key": "NSCL-1",
+      "nccn:page-no": 20,
+      "@type": [
+        "CLINICAL STAGE",
+        "Stage IA, peripherald (T1abc, N0)"
+      ],
+      "nccn:content": "Stage IVA (M1b)c",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/1"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/21"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/12",
+      "nccn:page-key": "NSCL-1",
+      "nccn:page-no": 20,
+      "@type": [],
+      "nccn:content": "Pretreatment Evaluation (NSCL-2)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/3"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/23"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/13",
+      "nccn:page-key": "NSCL-1",
+      "nccn:page-no": 20,
+      "@type": [],
+      "nccn:content": "Pretreatment Evaluation (NSCL-3)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/3"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/34"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/14",
+      "nccn:page-key": "NSCL-1",
+      "nccn:page-no": 20,
+      "@type": [],
+      "nccn:content": "Pretreatment Evaluation (NSCL-5)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/4"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/79"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/15",
+      "nccn:page-key": "NSCL-1",
+      "nccn:page-no": 20,
+      "@type": [],
+      "nccn:content": "Pretreatment Evaluation (NSCL-8)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/5"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/138",
+        "http://nccn-guideline.org/nsclc/155"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/16",
+      "nccn:page-key": "NSCL-1",
+      "nccn:page-no": 20,
+      "@type": [],
+      "nccn:content": "Pretreatment Evaluation (NSCL-8)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/6"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/138",
+        "http://nccn-guideline.org/nsclc/155"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/17",
+      "nccn:page-key": "NSCL-1",
+      "nccn:page-no": 20,
+      "@type": [],
+      "nccn:content": "Treatment (NSCL-10)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/7"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/179",
+        "http://nccn-guideline.org/nsclc/180",
+        "http://nccn-guideline.org/nsclc/181"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/18",
+      "nccn:page-key": "NSCL-1",
+      "nccn:page-no": 20,
+      "@type": [],
+      "nccn:content": "Pretreatment Evaluation (NSCL-12)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/8"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/223"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/19",
+      "nccn:page-key": "NSCL-1",
+      "nccn:page-no": 20,
+      "@type": [],
+      "nccn:content": "Pretreatment Evaluation (NSCL-13)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/10"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/233",
+        "http://nccn-guideline.org/nsclc/234",
+        "http://nccn-guideline.org/nsclc/242"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/20",
+      "nccn:page-key": "NSCL-1",
+      "nccn:page-no": 20,
+      "@type": [],
+      "nccn:content": "Pretreatment Evaluation (NSCL-13)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/9"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/233",
+        "http://nccn-guideline.org/nsclc/234",
+        "http://nccn-guideline.org/nsclc/242"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/21",
+      "nccn:page-key": "NSCL-1",
+      "nccn:page-no": 20,
+      "@type": [],
+      "nccn:content": "Pretreatment Evaluation (NSCL-14)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/11"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/253"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/22",
+      "nccn:page-key": "NSCL-1",
+      "nccn:page-no": 20,
+      "@type": [],
+      "nccn:content": "Systemic Therapy (NSCL-18)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/2"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/312"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/23",
+      "nccn:page-key": "NSCL-2",
+      "nccn:page-no": 21,
+      "@type": [
+        "CLINICAL ASSESSMENT"
+      ],
+      "nccn:content": "Stage IA (peripheral T1abc, N0)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/12"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/24"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/24",
+      "nccn:page-key": "NSCL-2",
+      "nccn:page-no": 21,
+      "@type": [
+        "PRETREATMENT EVALUATIONg"
+      ],
+      "nccn:content": "• Pulmonary function tests (PFTs) (if not previously done)• Bronchoscopy (intraoperative preferred)• Consider pathologic mediastinal lymph node evaluationh,i• FDG PET/CT scanj (if not previously done)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/23"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/25",
+        "http://nccn-guideline.org/nsclc/27"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/25",
+      "nccn:page-key": "NSCL-2",
+      "nccn:page-no": 21,
+      "@type": [],
+      "nccn:content": "Positive mediastinal nodes",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/24"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/26"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/26",
+      "nccn:page-key": "NSCL-2",
+      "nccn:page-no": 21,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "Stage IIIA/IIIB (NSCL-8) or Stage IIIB/IIIC (NSCL-12)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/25"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/138",
+        "http://nccn-guideline.org/nsclc/155",
+        "http://nccn-guideline.org/nsclc/223"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/27",
+      "nccn:page-key": "NSCL-2",
+      "nccn:page-no": 21,
+      "@type": [],
+      "nccn:content": "Negative mediastinal nodes",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/24"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/29",
+        "http://nccn-guideline.org/nsclc/28"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/28",
+      "nccn:page-key": "NSCL-2",
+      "nccn:page-no": 21,
+      "@type": [],
+      "nccn:content": "Operable",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/27"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/30"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/29",
+      "nccn:page-key": "NSCL-2",
+      "nccn:page-no": 21,
+      "@type": [],
+      "nccn:content": "Medically inoperablek",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/27"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/31"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/30",
+      "nccn:page-key": "NSCL-2",
+      "nccn:page-no": 21,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "Surgical exploration and resectionk + mediastinal lymph node dissection or systematic lymph node sampling",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/28"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/32"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/31",
+      "nccn:page-key": "NSCL-2",
+      "nccn:page-no": 21,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "Definitive RT, preferably  stereotactic ablative radiotherapy (SABR)l,m,n ",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/29"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/33"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/32",
+      "nccn:page-key": "NSCL-2",
+      "nccn:page-no": 21,
+      "@type": [],
+      "nccn:content": "Adjuvant Treatment (NSCL-4)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/30"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/51",
+        "http://nccn-guideline.org/nsclc/56",
+        "http://nccn-guideline.org/nsclc/57",
+        "http://nccn-guideline.org/nsclc/58",
+        "http://nccn-guideline.org/nsclc/75"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/33",
+      "nccn:page-key": "NSCL-2",
+      "nccn:page-no": 21,
+      "@type": [],
+      "nccn:content": "Surveillance (NSCL-16)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/31"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/277"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/34",
+      "nccn:page-key": "NSCL-3",
+      "nccn:page-no": 22,
+      "@type": [
+        "CLINICAL ASSESSMENT"
+      ],
+      "nccn:content": "Stage IB (peripheral T2a, N0) Stage I (central T1abc–T2a, N0)Stage II (T1abc–2ab, N1; T2b, N0)Stage IIB (T3, N0)eStage IIIA (T3, N1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/13"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/35"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/35",
+      "nccn:page-key": "NSCL-3",
+      "nccn:page-no": 22,
+      "@type": [
+        "PRETREATMENT EVALUATIONg"
+      ],
+      "nccn:content": "• PFTs (if not previously done)• Bronchoscopy• Pathologic mediastinal lymph node evaluationh  • FDG PET/CT scanj (if not previously done)• Brain MRI with contrasto (Stage II, IIIA) (Stage IB [optional])",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/34"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/37",
+        "http://nccn-guideline.org/nsclc/36"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/36",
+      "nccn:page-key": "NSCL-3",
+      "nccn:page-no": 22,
+      "@type": [
+        "PRETREATMENT EVALUATIONg"
+      ],
+      "nccn:content": "Negative mediastinal nodes",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/35"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/39",
+        "http://nccn-guideline.org/nsclc/38"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/37",
+      "nccn:page-key": "NSCL-3",
+      "nccn:page-no": 22,
+      "@type": [
+        "PRETREATMENT EVALUATIONg"
+      ],
+      "nccn:content": "Positive mediastinal nodes",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/35"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/48"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/38",
+      "nccn:page-key": "NSCL-3",
+      "nccn:page-no": 22,
+      "@type": [],
+      "nccn:content": "Operable",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/36"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/40"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/39",
+      "nccn:page-key": "NSCL-3",
+      "nccn:page-no": 22,
+      "@type": [],
+      "nccn:content": "Medically inoperablek",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/36"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/43",
+        "http://nccn-guideline.org/nsclc/42"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/40",
+      "nccn:page-key": "NSCL-3",
+      "nccn:page-no": 22,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "Surgical exploration and resectionk,p,q + mediastinal lymph node dissection or systematic lymph node sampling",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/38"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/41"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/41",
+      "nccn:page-key": "NSCL-3",
+      "nccn:page-no": 22,
+      "@type": [],
+      "nccn:content": "Adjuvant Treatment (NSCL-4)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/40"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/51",
+        "http://nccn-guideline.org/nsclc/56",
+        "http://nccn-guideline.org/nsclc/57",
+        "http://nccn-guideline.org/nsclc/58",
+        "http://nccn-guideline.org/nsclc/75"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/42",
+      "nccn:page-key": "NSCL-3",
+      "nccn:page-no": 22,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "N0",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/39"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/44"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/43",
+      "nccn:page-key": "NSCL-3",
+      "nccn:page-no": 22,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "N1",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/39"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/45"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/44",
+      "nccn:page-key": "NSCL-3",
+      "nccn:page-no": 22,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "Definitive RT, preferably  SABRl,n ",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/42"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/46"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/45",
+      "nccn:page-key": "NSCL-3",
+      "nccn:page-no": 22,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "Definitive chemoradiationl,t",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/43"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/47"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/46",
+      "nccn:page-key": "NSCL-3",
+      "nccn:page-no": 22,
+      "@type": [],
+      "nccn:content": "Consider adjuvant chemotherapyr for high-risk stages  IB–IIBs",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/44"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/49"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/47",
+      "nccn:page-key": "NSCL-3",
+      "nccn:page-no": 22,
+      "@type": [],
+      "nccn:content": "Durvalumabt,u   (category 1  stage III; category 2A stage II)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/45"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/50"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/48",
+      "nccn:page-key": "NSCL-3",
+      "nccn:page-no": 22,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "Stage IIIA/IIIB (NSCL-8) or Stage IIIB/IIIC (NSCL-12)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/37"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/138",
+        "http://nccn-guideline.org/nsclc/155",
+        "http://nccn-guideline.org/nsclc/223"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/49",
+      "nccn:page-key": "NSCL-3",
+      "nccn:page-no": 22,
+      "@type": [],
+      "nccn:content": "Surveillance (NSCL-16)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/46"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/277"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/50",
+      "nccn:page-key": "NSCL-3",
+      "nccn:page-no": 22,
+      "@type": [],
+      "nccn:content": "Surveillance (NSCL-16)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/47"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/277"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/51",
+      "nccn:page-key": "NSCL-4",
+      "nccn:page-no": 23,
+      "@type": [
+        "FINDINGS AT SURGERY"
+      ],
+      "nccn:content": "Stage IA (T1abc, N0)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/32",
+        "http://nccn-guideline.org/nsclc/41"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/53",
+        "http://nccn-guideline.org/nsclc/52"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/52",
+      "nccn:page-key": "NSCL-4",
+      "nccn:page-no": 23,
+      "@type": [],
+      "nccn:content": "Margins negative (R0)v",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/51"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/54"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/53",
+      "nccn:page-key": "NSCL-4",
+      "nccn:page-no": 23,
+      "@type": [],
+      "nccn:content": "Margins positive (R1, R2)v",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/51"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/54"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/54",
+      "nccn:page-key": "NSCL-4",
+      "nccn:page-no": 23,
+      "@type": [
+        "ADJUVANT TREATMENT"
+      ],
+      "nccn:content": "ObserveReresection (preferred) orRTl (category 2B)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/52",
+        "http://nccn-guideline.org/nsclc/53"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/69",
+        "http://nccn-guideline.org/nsclc/69"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/55",
+      "nccn:page-key": "NSCL-4",
+      "nccn:page-no": 23,
+      "@type": [],
+      "nccn:content": "Surveillance (NSCL-16)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/78"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/277"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/56",
+      "nccn:page-key": "NSCL-4",
+      "nccn:page-no": 23,
+      "@type": [
+        "FINDINGS AT SURGERY"
+      ],
+      "nccn:content": "Stage IB (T2a, N0)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/32",
+        "http://nccn-guideline.org/nsclc/41"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/60",
+        "http://nccn-guideline.org/nsclc/59"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/57",
+      "nccn:page-key": "NSCL-4",
+      "nccn:page-no": 23,
+      "@type": [
+        "FINDINGS AT SURGERY"
+      ],
+      "nccn:content": "Stage IIB (T1abc–T2a, N1)Stage IIB (T3, N0; T2b, N1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/32",
+        "http://nccn-guideline.org/nsclc/41"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/62",
+        "http://nccn-guideline.org/nsclc/61"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/58",
+      "nccn:page-key": "NSCL-4",
+      "nccn:page-no": 23,
+      "@type": [
+        "FINDINGS AT SURGERY"
+      ],
+      "nccn:content": "Stage IIIA (T1–2, N2; T3, N1)Stage IIIB (T3, N2)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/32",
+        "http://nccn-guideline.org/nsclc/41"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/66",
+        "http://nccn-guideline.org/nsclc/65"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/59",
+      "nccn:page-key": "NSCL-4",
+      "nccn:page-no": 23,
+      "@type": [],
+      "nccn:content": "Margins negative (R0)v",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/56"
+      ],
+      "nccn:next": []
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/60",
+      "nccn:page-key": "NSCL-4",
+      "nccn:page-no": 23,
+      "@type": [],
+      "nccn:content": "Margins positive (R1, R2)v",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/56"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/70"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/61",
+      "nccn:page-key": "NSCL-4",
+      "nccn:page-no": 23,
+      "@type": [],
+      "nccn:content": "Margins negative (R0)v",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/57"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/71"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/62",
+      "nccn:page-key": "NSCL-4",
+      "nccn:page-no": 23,
+      "@type": [],
+      "nccn:content": "Margins positive",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/57"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/64",
+        "http://nccn-guideline.org/nsclc/63"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/63",
+      "nccn:page-key": "NSCL-4",
+      "nccn:page-no": 23,
+      "@type": [],
+      "nccn:content": "R1v",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/62"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/71"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/64",
+      "nccn:page-key": "NSCL-4",
+      "nccn:page-no": 23,
+      "@type": [],
+      "nccn:content": "R2v",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/62"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/71"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/65",
+      "nccn:page-key": "NSCL-4",
+      "nccn:page-no": 23,
+      "@type": [],
+      "nccn:content": "Margins negative (R0)v",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/58"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/72"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/66",
+      "nccn:page-key": "NSCL-4",
+      "nccn:page-no": 23,
+      "@type": [],
+      "nccn:content": "Margins positive",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/58"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/68",
+        "http://nccn-guideline.org/nsclc/67"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/67",
+      "nccn:page-key": "NSCL-4",
+      "nccn:page-no": 23,
+      "@type": [],
+      "nccn:content": "R1v",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/66"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/73"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/68",
+      "nccn:page-key": "NSCL-4",
+      "nccn:page-no": 23,
+      "@type": [],
+      "nccn:content": "R2v",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/66"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/74"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/69",
+      "nccn:page-key": "NSCL-4",
+      "nccn:page-no": 23,
+      "@type": [
+        "ADJUVANT TREATMENT"
+      ],
+      "nccn:content": "Observe or  Chemotherapyr for high-risk patientss and osimertinibr (EGFR exon 19 deletion or L858R)w ",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/54",
+        "http://nccn-guideline.org/nsclc/54",
+        "http://nccn-guideline.org/nsclc/69",
+        "http://nccn-guideline.org/nsclc/70"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/69"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/70",
+      "nccn:page-key": "NSCL-4",
+      "nccn:page-no": 23,
+      "@type": [
+        "ADJUVANT TREATMENT"
+      ],
+      "nccn:content": "Reresection (preferred) ± chemotherapyrorRTl",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/60"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/69"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/71",
+      "nccn:page-key": "NSCL-4",
+      "nccn:page-no": 23,
+      "@type": [
+        "ADJUVANT TREATMENT"
+      ],
+      "nccn:content": "Chemotherapyr (category 1) and atezolizumabr,y or osimertinibr (EGFR exon 19 deletion or L858R)wReresection + chemotherapyr or Chemoradiationl (sequentialr or concurrentt)Reresection + chemotherapyror Concurrent chemoradiationl,t",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/61",
+        "http://nccn-guideline.org/nsclc/63",
+        "http://nccn-guideline.org/nsclc/64",
+        "http://nccn-guideline.org/nsclc/71",
+        "http://nccn-guideline.org/nsclc/71",
+        "http://nccn-guideline.org/nsclc/71"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/71",
+        "http://nccn-guideline.org/nsclc/71",
+        "http://nccn-guideline.org/nsclc/71"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/72",
+      "nccn:page-key": "NSCL-4",
+      "nccn:page-no": 23,
+      "@type": [
+        "ADJUVANT TREATMENT"
+      ],
+      "nccn:content": "Chemotherapyr (category 1) and atezolizumabr,yor osimertinibr (EGFR exon 19 deletion or L858R)w orSequential chemotherapyr and consider RTl",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/65",
+        "http://nccn-guideline.org/nsclc/73",
+        "http://nccn-guideline.org/nsclc/74"
+      ],
+      "nccn:next": []
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/73",
+      "nccn:page-key": "NSCL-4",
+      "nccn:page-no": 23,
+      "@type": [
+        "ADJUVANT TREATMENT"
+      ],
+      "nccn:content": "Chemoradiationl (sequentialr or concurrentt)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/67"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/72"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/74",
+      "nccn:page-key": "NSCL-4",
+      "nccn:page-no": 23,
+      "@type": [
+        "ADJUVANT TREATMENT"
+      ],
+      "nccn:content": "Concurrent chemoradiationl,t ",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/68"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/72"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/75",
+      "nccn:page-key": "NSCL-4",
+      "nccn:page-no": 23,
+      "@type": [
+        "FINDINGS AT SURGERY"
+      ],
+      "nccn:content": "Stage IIA (T2b, N0)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/32",
+        "http://nccn-guideline.org/nsclc/41"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/77",
+        "http://nccn-guideline.org/nsclc/76"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/76",
+      "nccn:page-key": "NSCL-4",
+      "nccn:page-no": 23,
+      "@type": [],
+      "nccn:content": "Margins negative (R0)v",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/75"
+      ],
+      "nccn:next": []
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/77",
+      "nccn:page-key": "NSCL-4",
+      "nccn:page-no": 23,
+      "@type": [],
+      "nccn:content": "Margins positive (R1, R2)v",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/75"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/78"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/78",
+      "nccn:page-key": "NSCL-4",
+      "nccn:page-no": 23,
+      "@type": [
+        "ADJUVANT TREATMENT"
+      ],
+      "nccn:content": "Observe or  Chemotherapyr for high-risk patientss and atezolizumabr,y or osimertinibr (EGFR exon 19 deletion or L858R)wReresection (preferred) ± chemotherapyr,yorRTl ± chemotherapyr",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/78",
+        "http://nccn-guideline.org/nsclc/77",
+        "http://nccn-guideline.org/nsclc/78"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/55",
+        "http://nccn-guideline.org/nsclc/78",
+        "http://nccn-guideline.org/nsclc/78"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/79",
+      "nccn:page-key": "NSCL-5",
+      "nccn:page-no": 25,
+      "@type": [
+        "CLINICAL ASSESSMENT"
+      ],
+      "nccn:content": "Stage IIB (T3 invasion, N0) Stage IIIA (T4 extension, N0–1; T3, N1; T4, N0–1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/14"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/80"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/80",
+      "nccn:page-key": "NSCL-5",
+      "nccn:page-no": 25,
+      "@type": [
+        "PRETREATMENT EVALUATION"
+      ],
+      "nccn:content": "• PFTs (if not previously done)• Bronchoscopy• Pathologic mediastinal lymph node evaluationh • Brain MRI with contrasto• MRI with contrast of spine + thoracic inlet for superior sulcus lesions abutting the spine, subclavian vessels, or brachial plexus• FDG PET/CT scanj (if not previously done)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/79"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/85",
+        "http://nccn-guideline.org/nsclc/81",
+        "http://nccn-guideline.org/nsclc/91",
+        "http://nccn-guideline.org/nsclc/84",
+        "http://nccn-guideline.org/nsclc/83",
+        "http://nccn-guideline.org/nsclc/82",
+        "http://nccn-guideline.org/nsclc/93"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/81",
+      "nccn:page-key": "NSCL-5",
+      "nccn:page-no": 25,
+      "@type": [
+        "CLINICAL EVALUATION"
+      ],
+      "nccn:content": "Superior sulcus tumor",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/80"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/86"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/82",
+      "nccn:page-key": "NSCL-5",
+      "nccn:page-no": 25,
+      "@type": [
+        "CLINICAL EVALUATION"
+      ],
+      "nccn:content": "Chest wall",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/80"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/87"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/83",
+      "nccn:page-key": "NSCL-5",
+      "nccn:page-no": 25,
+      "@type": [
+        "CLINICAL EVALUATION"
+      ],
+      "nccn:content": "Proximal airway or mediastinum",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/80"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/88"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/84",
+      "nccn:page-key": "NSCL-5",
+      "nccn:page-no": 25,
+      "@type": [
+        "CLINICAL EVALUATION"
+      ],
+      "nccn:content": "Unresectable disease",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/80"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/89"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/85",
+      "nccn:page-key": "NSCL-5",
+      "nccn:page-no": 25,
+      "@type": [
+        "CLINICAL EVALUATION"
+      ],
+      "nccn:content": "Metastatic disease",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/80"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/90"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/86",
+      "nccn:page-key": "NSCL-5",
+      "nccn:page-no": 25,
+      "@type": [],
+      "nccn:content": "Treatment (NSCL-6)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/81"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/95",
+        "http://nccn-guideline.org/nsclc/96"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/87",
+      "nccn:page-key": "NSCL-5",
+      "nccn:page-no": 25,
+      "@type": [],
+      "nccn:content": "Treatment (NSCL-7)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/82"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/113",
+        "http://nccn-guideline.org/nsclc/114",
+        "http://nccn-guideline.org/nsclc/127",
+        "http://nccn-guideline.org/nsclc/131",
+        "http://nccn-guideline.org/nsclc/134"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/88",
+      "nccn:page-key": "NSCL-5",
+      "nccn:page-no": 25,
+      "@type": [],
+      "nccn:content": "Treatment (NSCL-7)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/83"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/113",
+        "http://nccn-guideline.org/nsclc/114",
+        "http://nccn-guideline.org/nsclc/127",
+        "http://nccn-guideline.org/nsclc/131",
+        "http://nccn-guideline.org/nsclc/134"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/89",
+      "nccn:page-key": "NSCL-5",
+      "nccn:page-no": 25,
+      "@type": [],
+      "nccn:content": "Treatment (NSCL-7)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/84"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/113",
+        "http://nccn-guideline.org/nsclc/114",
+        "http://nccn-guideline.org/nsclc/127",
+        "http://nccn-guideline.org/nsclc/131",
+        "http://nccn-guideline.org/nsclc/134"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/90",
+      "nccn:page-key": "NSCL-5",
+      "nccn:page-no": 25,
+      "@type": [],
+      "nccn:content": "Treatment for Metastasis limited sites (NSCL-14) or distant disease (NSCL-17)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/85"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/253",
+        "http://nccn-guideline.org/nsclc/285",
+        "http://nccn-guideline.org/nsclc/288",
+        "http://nccn-guideline.org/nsclc/295"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/91",
+      "nccn:page-key": "NSCL-5",
+      "nccn:page-no": 25,
+      "@type": [
+        "CLINICAL EVALUATION"
+      ],
+      "nccn:content": "Stage IIIA (T4, N0–1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/80"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/92"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/92",
+      "nccn:page-key": "NSCL-5",
+      "nccn:page-no": 25,
+      "@type": [],
+      "nccn:content": "Treatment (NSCL-7)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/91"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/113",
+        "http://nccn-guideline.org/nsclc/114",
+        "http://nccn-guideline.org/nsclc/127",
+        "http://nccn-guideline.org/nsclc/131",
+        "http://nccn-guideline.org/nsclc/134"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/93",
+      "nccn:page-key": "NSCL-5",
+      "nccn:page-no": 25,
+      "@type": [
+        "CLINICAL EVALUATION"
+      ],
+      "nccn:content": "Positive mediastinal nodes",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/80"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/94"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/94",
+      "nccn:page-key": "NSCL-5",
+      "nccn:page-no": 25,
+      "@type": [],
+      "nccn:content": "Stage IIIA/IIIB (NSCL-8)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/93"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/138",
+        "http://nccn-guideline.org/nsclc/155"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/95",
+      "nccn:page-key": "NSCL-6",
+      "nccn:page-no": 26,
+      "@type": [
+        "CLINICAL PRESENTATION"
+      ],
+      "nccn:content": "Superior sulcus tumor (T3 invasion, N0–1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/86"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/97"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/96",
+      "nccn:page-key": "NSCL-6",
+      "nccn:page-no": 26,
+      "@type": [
+        "CLINICAL PRESENTATION"
+      ],
+      "nccn:content": "Superior sulcus tumor (T4 extension, N0–1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/86"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/99",
+        "http://nccn-guideline.org/nsclc/98"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/97",
+      "nccn:page-key": "NSCL-6",
+      "nccn:page-no": 26,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "Preoperative concurrent chemoradiationl,t",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/95"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/111"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/98",
+      "nccn:page-key": "NSCL-6",
+      "nccn:page-no": 26,
+      "@type": [
+        "CLINICAL PRESENTATION"
+      ],
+      "nccn:content": "Possibly resectablek",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/96"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/100"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/99",
+      "nccn:page-key": "NSCL-6",
+      "nccn:page-no": 26,
+      "@type": [
+        "CLINICAL PRESENTATION"
+      ],
+      "nccn:content": "Unresectablek",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/96"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/101"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/100",
+      "nccn:page-key": "NSCL-6",
+      "nccn:page-no": 26,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "Preoperative concurrent chemoradiationl,t",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/98"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/102"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/101",
+      "nccn:page-key": "NSCL-6",
+      "nccn:page-no": 26,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "Definitive concurrent chemoradiationl,t",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/99"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/110"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/102",
+      "nccn:page-key": "NSCL-6",
+      "nccn:page-no": 26,
+      "@type": [],
+      "nccn:content": "Surgical reevaluation including chest CT with or without contrast ± PET/CTz",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/100"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/104",
+        "http://nccn-guideline.org/nsclc/103"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/103",
+      "nccn:page-key": "NSCL-6",
+      "nccn:page-no": 26,
+      "@type": [],
+      "nccn:content": "Resectable",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/102"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/112"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/104",
+      "nccn:page-key": "NSCL-6",
+      "nccn:page-no": 26,
+      "@type": [],
+      "nccn:content": "Unresectable",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/102"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/107"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/105",
+      "nccn:page-key": "NSCL-6",
+      "nccn:page-no": 26,
+      "@type": [],
+      "nccn:content": "Surveillance (NSCL-16)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/111"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/277"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/106",
+      "nccn:page-key": "NSCL-6",
+      "nccn:page-no": 26,
+      "@type": [],
+      "nccn:content": "Surveillance (NSCL-16)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/112"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/277"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/107",
+      "nccn:page-key": "NSCL-6",
+      "nccn:page-no": 26,
+      "@type": [
+        "ADJUVANT TREATMENT"
+      ],
+      "nccn:content": "Complete definitive chemoradiationl,t",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/104"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/108",
+        "http://nccn-guideline.org/nsclc/110"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/108",
+      "nccn:page-key": "NSCL-6",
+      "nccn:page-no": 26,
+      "@type": [],
+      "nccn:content": "Surveillance (NSCL-16)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/107"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/277"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/109",
+      "nccn:page-key": "NSCL-6",
+      "nccn:page-no": 26,
+      "@type": [],
+      "nccn:content": "Surveillance (NSCL-16)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/110"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/277"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/110",
+      "nccn:page-key": "NSCL-6",
+      "nccn:page-no": 26,
+      "@type": [
+        "ADJUVANT TREATMENT"
+      ],
+      "nccn:content": "Durvalumabt,u (category 1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/101",
+        "http://nccn-guideline.org/nsclc/107"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/109"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/111",
+      "nccn:page-key": "NSCL-6",
+      "nccn:page-no": 26,
+      "@type": [
+        "ADJUVANT TREATMENT"
+      ],
+      "nccn:content": "Surgeryk,q + chemotherapyr  and atezolizumabr,y or osimertinibr,w",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/97"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/105"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/112",
+      "nccn:page-key": "NSCL-6",
+      "nccn:page-no": 26,
+      "@type": [
+        "ADJUVANT TREATMENT"
+      ],
+      "nccn:content": "Surgeryk,q + chemotherapyr  and atezolizumabr,y or osimertinibr,w",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/103"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/106"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/113",
+      "nccn:page-key": "NSCL-7",
+      "nccn:page-no": 27,
+      "@type": [
+        "CLINICAL PRESENTATION"
+      ],
+      "nccn:content": "Chest wall, proximal airway, or mediastinum (T3 invasion, N0–1Resectable T4 extension, N0–1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/87",
+        "http://nccn-guideline.org/nsclc/88",
+        "http://nccn-guideline.org/nsclc/89",
+        "http://nccn-guideline.org/nsclc/92"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/115"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/114",
+      "nccn:page-key": "NSCL-7",
+      "nccn:page-no": 27,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "Surgeryk,q (preferred)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/87",
+        "http://nccn-guideline.org/nsclc/88",
+        "http://nccn-guideline.org/nsclc/89",
+        "http://nccn-guideline.org/nsclc/92"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/118",
+        "http://nccn-guideline.org/nsclc/117"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/115",
+      "nccn:page-key": "NSCL-7",
+      "nccn:page-no": 27,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "or ",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/113"
+      ],
+      "nccn:next": []
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/116",
+      "nccn:page-key": "NSCL-7",
+      "nccn:page-no": 27,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "Concurrent chemoradiationl,tor Chemotherapyr",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/134"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/136"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/117",
+      "nccn:page-key": "NSCL-7",
+      "nccn:page-no": 27,
+      "@type": [],
+      "nccn:content": "Margins negative (R0)v",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/114"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/137"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/118",
+      "nccn:page-key": "NSCL-7",
+      "nccn:page-no": 27,
+      "@type": [],
+      "nccn:content": "Margins positive",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/114"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/121",
+        "http://nccn-guideline.org/nsclc/120"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/119",
+      "nccn:page-key": "NSCL-7",
+      "nccn:page-no": 27,
+      "@type": [],
+      "nccn:content": "Surgeryk",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/136"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/123",
+        "http://nccn-guideline.org/nsclc/122"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/120",
+      "nccn:page-key": "NSCL-7",
+      "nccn:page-no": 27,
+      "@type": [],
+      "nccn:content": "R1v",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/118"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/124"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/121",
+      "nccn:page-key": "NSCL-7",
+      "nccn:page-no": 27,
+      "@type": [],
+      "nccn:content": "R2v",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/118"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/125"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/122",
+      "nccn:page-key": "NSCL-7",
+      "nccn:page-no": 27,
+      "@type": [],
+      "nccn:content": "Margins negative (R0)v",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/119"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/126"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/123",
+      "nccn:page-key": "NSCL-7",
+      "nccn:page-no": 27,
+      "@type": [],
+      "nccn:content": "Margins positive (R1, R2)v",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/119",
+        "http://nccn-guideline.org/nsclc/123"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/123"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/124",
+      "nccn:page-key": "NSCL-7",
+      "nccn:page-no": 27,
+      "@type": [
+        "ADJUVANT TREATMENT"
+      ],
+      "nccn:content": "Reresection + chemotherapyr  orChemoradiationl  (sequentialr or concurrentt)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/120",
+        "http://nccn-guideline.org/nsclc/124"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/124"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/125",
+      "nccn:page-key": "NSCL-7",
+      "nccn:page-no": 27,
+      "@type": [
+        "ADJUVANT TREATMENT"
+      ],
+      "nccn:content": "Reresection + chemotherapyr  orConcurrent chemoradiationl,t",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/121",
+        "http://nccn-guideline.org/nsclc/125"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/125"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/126",
+      "nccn:page-key": "NSCL-7",
+      "nccn:page-no": 27,
+      "@type": [
+        "ADJUVANT TREATMENT"
+      ],
+      "nccn:content": "Observe ",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/122"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/129"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/127",
+      "nccn:page-key": "NSCL-7",
+      "nccn:page-no": 27,
+      "@type": [
+        "ADJUVANT TREATMENT"
+      ],
+      "nccn:content": "Reresection  and/or RT boost",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/87",
+        "http://nccn-guideline.org/nsclc/88",
+        "http://nccn-guideline.org/nsclc/89",
+        "http://nccn-guideline.org/nsclc/92"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/130"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/128",
+      "nccn:page-key": "NSCL-7",
+      "nccn:page-no": 27,
+      "@type": [
+        "Surveillance (NSCL-16)",
+        "Surveillance (NSCL-16)"
+      ],
+      "nccn:content": "Surveillance (NSCL-16)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/137"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/277"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/129",
+      "nccn:page-key": "NSCL-7",
+      "nccn:page-no": 27,
+      "@type": [
+        "Surveillance (NSCL-16)",
+        "Surveillance (NSCL-16)"
+      ],
+      "nccn:content": "Surveillance (NSCL-16)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/126"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/277"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/130",
+      "nccn:page-key": "NSCL-7",
+      "nccn:page-no": 27,
+      "@type": [
+        "Surveillance (NSCL-16)",
+        "Surveillance (NSCL-16)"
+      ],
+      "nccn:content": "Surveillance (NSCL-16)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/127"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/277"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/131",
+      "nccn:page-key": "NSCL-7",
+      "nccn:page-no": 27,
+      "@type": [
+        "CLINICAL PRESENTATION"
+      ],
+      "nccn:content": "Stage IIIA (T4, N0–1) Unresectable ",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/87",
+        "http://nccn-guideline.org/nsclc/88",
+        "http://nccn-guideline.org/nsclc/89",
+        "http://nccn-guideline.org/nsclc/92"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/132"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/132",
+      "nccn:page-key": "NSCL-7",
+      "nccn:page-no": 27,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "Definitive concurrent chemoradiationl,t (category 1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/131"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/135"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/133",
+      "nccn:page-key": "NSCL-7",
+      "nccn:page-no": 27,
+      "@type": [
+        "Surveillance (NSCL-16)",
+        "Surveillance (NSCL-16)"
+      ],
+      "nccn:content": "Surveillance (NSCL-16)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/135"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/277"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/134",
+      "nccn:page-key": "NSCL-7",
+      "nccn:page-no": 27,
+      "@type": [
+        "CLINICAL PRESENTATION"
+      ],
+      "nccn:content": "Stage IIIA (T4, N0–1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/87",
+        "http://nccn-guideline.org/nsclc/88",
+        "http://nccn-guideline.org/nsclc/89",
+        "http://nccn-guideline.org/nsclc/92"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/116"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/135",
+      "nccn:page-key": "NSCL-7",
+      "nccn:page-no": 27,
+      "@type": [
+        "ADJUVANT TREATMENT"
+      ],
+      "nccn:content": "Durvalumabt,u (category 1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/132"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/133"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/136",
+      "nccn:page-key": "NSCL-7",
+      "nccn:page-no": 27,
+      "@type": [],
+      "nccn:content": "Surgical reevaluation including chest CT ± PET/CT",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/116"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/119"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/137",
+      "nccn:page-key": "NSCL-7",
+      "nccn:page-no": 27,
+      "@type": [
+        "ADJUVANT TREATMENT"
+      ],
+      "nccn:content": "Chemotherapyr   and atezolizumabr,y or osimertinibr,w",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/117"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/128"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/138",
+      "nccn:page-key": "NSCL-8",
+      "nccn:page-no": 28,
+      "@type": [
+        "CLINICAL ASSESSMENT"
+      ],
+      "nccn:content": "Separate pulmonary nodule(s) (Stage IIB, IIIA, IV)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/15",
+        "http://nccn-guideline.org/nsclc/16",
+        "http://nccn-guideline.org/nsclc/26",
+        "http://nccn-guideline.org/nsclc/48",
+        "http://nccn-guideline.org/nsclc/94"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/140"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/139",
+      "nccn:page-key": "NSCL-8",
+      "nccn:page-no": 28,
+      "@type": [
+        "PRETREATMENT EVALUATION"
+      ],
+      "nccn:content": "• PFTs (if not previously done)• Bronchoscopy• Pathologic mediastinal lymph node evaluationh• FDG PET/CT scanj (if not previously done)• Brain MRI with contrasto",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/155"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/144",
+        "http://nccn-guideline.org/nsclc/141",
+        "http://nccn-guideline.org/nsclc/143",
+        "http://nccn-guideline.org/nsclc/142"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/140",
+      "nccn:page-key": "NSCL-8",
+      "nccn:page-no": 28,
+      "@type": [
+        "PRETREATMENT EVALUATION"
+      ],
+      "nccn:content": "• PFTs (if not previously done)• Bronchoscopy • Pathologic mediastinal lymph node evaluationh • Brain MRI with contrasto• FDG PET/CT scanj (if not previously done)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/138"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/151",
+        "http://nccn-guideline.org/nsclc/149",
+        "http://nccn-guideline.org/nsclc/150"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/141",
+      "nccn:page-key": "NSCL-8",
+      "nccn:page-no": 28,
+      "@type": [
+        "MEDIASTINAL BIOPSY FINDINGSAND RESECTABILITY"
+      ],
+      "nccn:content": "N2, N3 nodes negative",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/139"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/145"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/142",
+      "nccn:page-key": "NSCL-8",
+      "nccn:page-no": 28,
+      "@type": [
+        "MEDIASTINAL BIOPSY FINDINGSAND RESECTABILITY"
+      ],
+      "nccn:content": "N2 nodes positive, M0",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/139"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/146"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/143",
+      "nccn:page-key": "NSCL-8",
+      "nccn:page-no": 28,
+      "@type": [
+        "MEDIASTINAL BIOPSY FINDINGSAND RESECTABILITY"
+      ],
+      "nccn:content": "N3 nodes positive, M0",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/139"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/147"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/144",
+      "nccn:page-key": "NSCL-8",
+      "nccn:page-no": 28,
+      "@type": [
+        "MEDIASTINAL BIOPSY FINDINGSAND RESECTABILITY"
+      ],
+      "nccn:content": "Metastatic disease",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/139"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/148"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/145",
+      "nccn:page-key": "NSCL-8",
+      "nccn:page-no": 28,
+      "@type": [
+        "MEDIASTINAL BIOPSY FINDINGSAND RESECTABILITY"
+      ],
+      "nccn:content": "TreatmentT1–3, N0–1 (NSCL-9)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/141"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/156",
+        "http://nccn-guideline.org/nsclc/162",
+        "http://nccn-guideline.org/nsclc/163",
+        "http://nccn-guideline.org/nsclc/165",
+        "http://nccn-guideline.org/nsclc/172"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/146",
+      "nccn:page-key": "NSCL-8",
+      "nccn:page-no": 28,
+      "@type": [
+        "MEDIASTINAL BIOPSY FINDINGSAND RESECTABILITY"
+      ],
+      "nccn:content": "Treatment (NSCL-9)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/142"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/156",
+        "http://nccn-guideline.org/nsclc/162",
+        "http://nccn-guideline.org/nsclc/163",
+        "http://nccn-guideline.org/nsclc/165",
+        "http://nccn-guideline.org/nsclc/172"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/147",
+      "nccn:page-key": "NSCL-8",
+      "nccn:page-no": 28,
+      "@type": [
+        "MEDIASTINAL BIOPSY FINDINGSAND RESECTABILITY"
+      ],
+      "nccn:content": "Stage IIIB (NSCL-12)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/143"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/223"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/148",
+      "nccn:page-key": "NSCL-8",
+      "nccn:page-no": 28,
+      "@type": [
+        "MEDIASTINAL BIOPSY FINDINGSAND RESECTABILITY"
+      ],
+      "nccn:content": "Treatment for Metastasis limited sites (NSCL-14) or distant disease (NSCL-17)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/144"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/253",
+        "http://nccn-guideline.org/nsclc/285",
+        "http://nccn-guideline.org/nsclc/288",
+        "http://nccn-guideline.org/nsclc/295"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/149",
+      "nccn:page-key": "NSCL-8",
+      "nccn:page-no": 28,
+      "@type": [
+        "MEDIASTINAL BIOPSY FINDINGSAND RESECTABILITY"
+      ],
+      "nccn:content": "Separate pulmonary nodule(s), same lobe  (T3, N0–1) or ipsilateral  non-primary lobe (T4, N0–1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/140"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/152"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/150",
+      "nccn:page-key": "NSCL-8",
+      "nccn:page-no": 28,
+      "@type": [
+        "MEDIASTINAL BIOPSY FINDINGSAND RESECTABILITY"
+      ],
+      "nccn:content": "Stage IVA (N0, M1a): Contralateral lung (solitary nodule)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/140"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/153"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/151",
+      "nccn:page-key": "NSCL-8",
+      "nccn:page-no": 28,
+      "@type": [
+        "MEDIASTINAL BIOPSY FINDINGSAND RESECTABILITY"
+      ],
+      "nccn:content": "Extrathoracic metastatic disease",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/140"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/154"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/152",
+      "nccn:page-key": "NSCL-8",
+      "nccn:page-no": 28,
+      "@type": [
+        "MEDIASTINAL BIOPSY FINDINGSAND RESECTABILITY"
+      ],
+      "nccn:content": "Treatment (NSCL-10)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/149"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/179",
+        "http://nccn-guideline.org/nsclc/180",
+        "http://nccn-guideline.org/nsclc/181"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/153",
+      "nccn:page-key": "NSCL-8",
+      "nccn:page-no": 28,
+      "@type": [
+        "MEDIASTINAL BIOPSY FINDINGSAND RESECTABILITY"
+      ],
+      "nccn:content": "Treatment (NSCL-10)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/150"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/179",
+        "http://nccn-guideline.org/nsclc/180",
+        "http://nccn-guideline.org/nsclc/181"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/154",
+      "nccn:page-key": "NSCL-8",
+      "nccn:page-no": 28,
+      "@type": [
+        "MEDIASTINAL BIOPSY FINDINGSAND RESECTABILITY"
+      ],
+      "nccn:content": "Treatment for Metastasis limited sites (NSCL-14) or distant disease (NSCL-17)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/151"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/253",
+        "http://nccn-guideline.org/nsclc/285",
+        "http://nccn-guideline.org/nsclc/288",
+        "http://nccn-guideline.org/nsclc/295"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/155",
+      "nccn:page-key": "NSCL-8",
+      "nccn:page-no": 28,
+      "@type": [
+        "CLINICAL ASSESSMENT"
+      ],
+      "nccn:content": "Stage IIIA (T1–2, N2)Stage IIIB (T3, N2)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/15",
+        "http://nccn-guideline.org/nsclc/16",
+        "http://nccn-guideline.org/nsclc/26",
+        "http://nccn-guideline.org/nsclc/48",
+        "http://nccn-guideline.org/nsclc/94"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/139"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/156",
+      "nccn:page-key": "NSCL-9",
+      "nccn:page-no": 29,
+      "@type": [
+        "MEDIASTINAL BIOPSY FINDINGS"
+      ],
+      "nccn:content": "T1–3, N0–1(including T3 with multiple nodules in same lobe)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/145",
+        "http://nccn-guideline.org/nsclc/146"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/158",
+        "http://nccn-guideline.org/nsclc/157"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/157",
+      "nccn:page-key": "NSCL-9",
+      "nccn:page-no": 29,
+      "@type": [
+        "MEDIASTINAL BIOPSY FINDINGS"
+      ],
+      "nccn:content": "Resectablek,p",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/156"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/159"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/158",
+      "nccn:page-key": "NSCL-9",
+      "nccn:page-no": 29,
+      "@type": [
+        "MEDIASTINAL BIOPSY FINDINGS"
+      ],
+      "nccn:content": "Medically inoperable",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/156"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/160"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/159",
+      "nccn:page-key": "NSCL-9",
+      "nccn:page-no": 29,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "Surgical resectionk + mediastinal lymph node dissection or systematic lymph node sampling",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/157"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/161"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/160",
+      "nccn:page-key": "NSCL-9",
+      "nccn:page-no": 29,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "Treatment according to clinical stage (NSCL-3)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/158"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/34"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/161",
+      "nccn:page-key": "NSCL-9",
+      "nccn:page-no": 29,
+      "@type": [
+        "ADJUVANT TREATMENT",
+        "Treatment for Metastasis limited sites (NSCL-14) or distant disease (NSCL-17)"
+      ],
+      "nccn:content": "Adjuvant Treatment (NSCL-4)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/159"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/51",
+        "http://nccn-guideline.org/nsclc/56",
+        "http://nccn-guideline.org/nsclc/57",
+        "http://nccn-guideline.org/nsclc/58",
+        "http://nccn-guideline.org/nsclc/75"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/162",
+      "nccn:page-key": "NSCL-9",
+      "nccn:page-no": 29,
+      "@type": [
+        "MEDIASTINAL BIOPSY FINDINGS"
+      ],
+      "nccn:content": "T1–2, T3 (other than invasive), N2 nodes positive, M0",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/145",
+        "http://nccn-guideline.org/nsclc/146"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/164"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/163",
+      "nccn:page-key": "NSCL-9",
+      "nccn:page-no": 29,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "Definitive concurrent chemoradiationl,t (category 1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/145",
+        "http://nccn-guideline.org/nsclc/146"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/177"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/164",
+      "nccn:page-key": "NSCL-9",
+      "nccn:page-no": 29,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "or",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/162"
+      ],
+      "nccn:next": []
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/165",
+      "nccn:page-key": "NSCL-9",
+      "nccn:page-no": 29,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "Induction  chemotherapyr,aa ± RTl",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/145",
+        "http://nccn-guideline.org/nsclc/146"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/167",
+        "http://nccn-guideline.org/nsclc/166"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/166",
+      "nccn:page-key": "NSCL-9",
+      "nccn:page-no": 29,
+      "@type": [],
+      "nccn:content": "No apparent progression",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/165"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/168"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/167",
+      "nccn:page-key": "NSCL-9",
+      "nccn:page-no": 29,
+      "@type": [],
+      "nccn:content": "Progression",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/165"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/171",
+        "http://nccn-guideline.org/nsclc/170"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/168",
+      "nccn:page-key": "NSCL-9",
+      "nccn:page-no": 29,
+      "@type": [
+        "ADJUVANT TREATMENT",
+        "Treatment for Metastasis limited sites (NSCL-14) or distant disease (NSCL-17)"
+      ],
+      "nccn:content": "• Surgeryk• Consider RTl ",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/166"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/178"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/169",
+      "nccn:page-key": "NSCL-9",
+      "nccn:page-no": 29,
+      "@type": [
+        "ADJUVANT TREATMENT",
+        "Treatment for Metastasis limited sites (NSCL-14) or distant disease (NSCL-17)"
+      ],
+      "nccn:content": "RTl (if feasible) ± chemotherapyr",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/170"
+      ],
+      "nccn:next": []
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/170",
+      "nccn:page-key": "NSCL-9",
+      "nccn:page-no": 29,
+      "@type": [],
+      "nccn:content": "Local",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/167"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/169"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/171",
+      "nccn:page-key": "NSCL-9",
+      "nccn:page-no": 29,
+      "@type": [],
+      "nccn:content": "Systemic",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/167",
+        "http://nccn-guideline.org/nsclc/171"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/171"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/172",
+      "nccn:page-key": "NSCL-9",
+      "nccn:page-no": 29,
+      "@type": [
+        "MEDIASTINAL BIOPSY FINDINGS"
+      ],
+      "nccn:content": "T3 (invasion),N2 nodes positive, M0",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/145",
+        "http://nccn-guideline.org/nsclc/146"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/173"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/173",
+      "nccn:page-key": "NSCL-9",
+      "nccn:page-no": 29,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "Definitive concurrent chemoradiationl,t",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/172"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/176"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/174",
+      "nccn:page-key": "NSCL-9",
+      "nccn:page-no": 29,
+      "@type": [],
+      "nccn:content": "Surveillance (NSCL-16)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/177"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/277"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/175",
+      "nccn:page-key": "NSCL-9",
+      "nccn:page-no": 29,
+      "@type": [],
+      "nccn:content": "Surveillance (NSCL-16)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/176"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/277"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/176",
+      "nccn:page-key": "NSCL-9",
+      "nccn:page-no": 29,
+      "@type": [
+        "ADJUVANT TREATMENT",
+        "Treatment for Metastasis limited sites (NSCL-14) or distant disease (NSCL-17)"
+      ],
+      "nccn:content": "Durvalumabt,u (category 1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/173"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/175"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/177",
+      "nccn:page-key": "NSCL-9",
+      "nccn:page-no": 29,
+      "@type": [
+        "ADJUVANT TREATMENT",
+        "Treatment for Metastasis limited sites (NSCL-14) or distant disease (NSCL-17)"
+      ],
+      "nccn:content": "Durvalumabt,u (category 1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/163"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/174"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/178",
+      "nccn:page-key": "NSCL-9",
+      "nccn:page-no": 29,
+      "@type": [],
+      "nccn:content": "Surveillance (NSCL-16)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/168"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/277"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/179",
+      "nccn:page-key": "NSCL-10",
+      "nccn:page-no": 30,
+      "@type": [
+        "CLINICAL PRESENTATION"
+      ],
+      "nccn:content": "Separate pulmonary nodule(s), same lobe (T3, N0–1), or ipsilateral non-primary lobe (T4, N0–1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/17",
+        "http://nccn-guideline.org/nsclc/152",
+        "http://nccn-guideline.org/nsclc/153"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/182"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/180",
+      "nccn:page-key": "NSCL-10",
+      "nccn:page-no": 30,
+      "@type": [
+        "CLINICAL PRESENTATION"
+      ],
+      "nccn:content": "Stage IVA (N0, M1a): Contralateral lung (solitary nodule)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/17",
+        "http://nccn-guideline.org/nsclc/152",
+        "http://nccn-guideline.org/nsclc/153"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/183"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/181",
+      "nccn:page-key": "NSCL-10",
+      "nccn:page-no": 30,
+      "@type": [
+        "CLINICAL PRESENTATION"
+      ],
+      "nccn:content": "Suspected multiple lung cancers (based on the presence of biopsy-proven synchronous lesions or history of lung cancer)bb,cc",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/17",
+        "http://nccn-guideline.org/nsclc/152",
+        "http://nccn-guideline.org/nsclc/153"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/184"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/182",
+      "nccn:page-key": "NSCL-10",
+      "nccn:page-no": 30,
+      "@type": [],
+      "nccn:content": "Surgeryk,p",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/179"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/186",
+        "http://nccn-guideline.org/nsclc/185"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/183",
+      "nccn:page-key": "NSCL-10",
+      "nccn:page-no": 30,
+      "@type": [],
+      "nccn:content": "Treat as two primary lung tumors if both curable",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/180"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/199"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/184",
+      "nccn:page-key": "NSCL-10",
+      "nccn:page-no": 30,
+      "@type": [],
+      "nccn:content": "• Chest CT with contrast• FDG PET/CT scan (if not previously done)j• Brain MRI with contrasto",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/181"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/201",
+        "http://nccn-guideline.org/nsclc/200"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/185",
+      "nccn:page-key": "NSCL-10",
+      "nccn:page-no": 30,
+      "@type": [],
+      "nccn:content": "N0–1",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/182"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/187"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/186",
+      "nccn:page-key": "NSCL-10",
+      "nccn:page-no": 30,
+      "@type": [],
+      "nccn:content": "N2",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/182"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/190",
+        "http://nccn-guideline.org/nsclc/189"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/187",
+      "nccn:page-key": "NSCL-10",
+      "nccn:page-no": 30,
+      "@type": [
+        "ADJUVANT TREATMENT"
+      ],
+      "nccn:content": "Chemotherapyr",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/185"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/188"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/188",
+      "nccn:page-key": "NSCL-10",
+      "nccn:page-no": 30,
+      "@type": [],
+      "nccn:content": "Surveillance (NSCL-16)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/187"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/277"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/189",
+      "nccn:page-key": "NSCL-10",
+      "nccn:page-no": 30,
+      "@type": [],
+      "nccn:content": "Margins negative (R0)v",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/186"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/191"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/190",
+      "nccn:page-key": "NSCL-10",
+      "nccn:page-no": 30,
+      "@type": [],
+      "nccn:content": "Margins positive",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/186"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/194",
+        "http://nccn-guideline.org/nsclc/193"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/191",
+      "nccn:page-key": "NSCL-10",
+      "nccn:page-no": 30,
+      "@type": [
+        "ADJUVANT TREATMENT"
+      ],
+      "nccn:content": "Chemotherapyr (category 1) or Sequential chemotherapyr + RTl",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/189"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/192"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/192",
+      "nccn:page-key": "NSCL-10",
+      "nccn:page-no": 30,
+      "@type": [],
+      "nccn:content": "Surveillance (NSCL-16)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/191"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/277"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/193",
+      "nccn:page-key": "NSCL-10",
+      "nccn:page-no": 30,
+      "@type": [],
+      "nccn:content": "R1v",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/190"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/195"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/194",
+      "nccn:page-key": "NSCL-10",
+      "nccn:page-no": 30,
+      "@type": [],
+      "nccn:content": "R2v",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/190"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/196"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/195",
+      "nccn:page-key": "NSCL-10",
+      "nccn:page-no": 30,
+      "@type": [
+        "ADJUVANT TREATMENT"
+      ],
+      "nccn:content": "Chemoradiationl (sequentialr or concurrentt)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/193"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/197"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/196",
+      "nccn:page-key": "NSCL-10",
+      "nccn:page-no": 30,
+      "@type": [
+        "ADJUVANT TREATMENT"
+      ],
+      "nccn:content": "Concurrent chemoradiationl,t ",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/194"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/198"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/197",
+      "nccn:page-key": "NSCL-10",
+      "nccn:page-no": 30,
+      "@type": [],
+      "nccn:content": "Surveillance (NSCL-16)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/195"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/277"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/198",
+      "nccn:page-key": "NSCL-10",
+      "nccn:page-no": 30,
+      "@type": [],
+      "nccn:content": "Surveillance (NSCL-16)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/196"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/277"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/199",
+      "nccn:page-key": "NSCL-10",
+      "nccn:page-no": 30,
+      "@type": [],
+      "nccn:content": "Evaluation (NSCL-1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/183"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/0"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/200",
+      "nccn:page-key": "NSCL-10",
+      "nccn:page-no": 30,
+      "@type": [],
+      "nccn:content": "Disease outside of chest",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/184"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/202"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/201",
+      "nccn:page-key": "NSCL-10",
+      "nccn:page-no": 30,
+      "@type": [],
+      "nccn:content": "No disease outside of chest",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/184"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/203"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/202",
+      "nccn:page-key": "NSCL-10",
+      "nccn:page-no": 30,
+      "@type": [
+        "ADJUVANT TREATMENT"
+      ],
+      "nccn:content": "Systemic Therapy for Metastatic Disease (NSCL-18)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/200"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/312"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/203",
+      "nccn:page-key": "NSCL-10",
+      "nccn:page-no": 30,
+      "@type": [
+        "ADJUVANT TREATMENT"
+      ],
+      "nccn:content": "Pathologic mediastinal lymph node evaluationh",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/201"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/204",
+        "http://nccn-guideline.org/nsclc/205"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/204",
+      "nccn:page-key": "NSCL-10",
+      "nccn:page-no": 30,
+      "@type": [
+        "ADJUVANT TREATMENT"
+      ],
+      "nccn:content": "N2–3",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/203"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/206"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/205",
+      "nccn:page-key": "NSCL-10",
+      "nccn:page-no": 30,
+      "@type": [
+        "ADJUVANT TREATMENT"
+      ],
+      "nccn:content": "N0–1",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/203"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/207"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/206",
+      "nccn:page-key": "NSCL-10",
+      "nccn:page-no": 30,
+      "@type": [],
+      "nccn:content": "Systemic Therapy for Metastatic Disease (NSCL-18)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/204"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/312"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/207",
+      "nccn:page-key": "NSCL-10",
+      "nccn:page-no": 30,
+      "@type": [],
+      "nccn:content": "Initial Treatment (NSCL-11)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/205"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/208"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/208",
+      "nccn:page-key": "NSCL-11",
+      "nccn:page-no": 31,
+      "@type": [
+        "CLINICAL PRESENTATION"
+      ],
+      "nccn:content": "Multiple lung cancers (N0–1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/207"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/210",
+        "http://nccn-guideline.org/nsclc/209"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/209",
+      "nccn:page-key": "NSCL-11",
+      "nccn:page-no": 31,
+      "@type": [
+        "CLINICAL PRESENTATION"
+      ],
+      "nccn:content": "Asymptomatic",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/208"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/212",
+        "http://nccn-guideline.org/nsclc/211"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/210",
+      "nccn:page-key": "NSCL-11",
+      "nccn:page-no": 31,
+      "@type": [
+        "CLINICAL PRESENTATION"
+      ],
+      "nccn:content": "Symptomatic",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/208"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/218"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/211",
+      "nccn:page-key": "NSCL-11",
+      "nccn:page-no": 31,
+      "@type": [],
+      "nccn:content": "Multiple lesions",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/209"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/214",
+        "http://nccn-guideline.org/nsclc/213"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/212",
+      "nccn:page-key": "NSCL-11",
+      "nccn:page-no": 31,
+      "@type": [],
+      "nccn:content": "Solitary lesion (metachronous disease)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/209"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/214"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/213",
+      "nccn:page-key": "NSCL-11",
+      "nccn:page-no": 31,
+      "@type": [],
+      "nccn:content": "Low risk of becoming symptomaticdd",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/211"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/215"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/214",
+      "nccn:page-key": "NSCL-11",
+      "nccn:page-no": 31,
+      "@type": [],
+      "nccn:content": "High risk of becoming symptomaticdd",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/211",
+        "http://nccn-guideline.org/nsclc/212"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/218",
+        "http://nccn-guideline.org/nsclc/217"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/215",
+      "nccn:page-key": "NSCL-11",
+      "nccn:page-no": 31,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "Observation",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/213"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/216"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/216",
+      "nccn:page-key": "NSCL-11",
+      "nccn:page-no": 31,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "Surveillance (NSCL-16)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/215"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/277"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/217",
+      "nccn:page-key": "NSCL-11",
+      "nccn:page-no": 31,
+      "@type": [],
+      "nccn:content": "Definitive local therapy possible",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/214"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/219"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/218",
+      "nccn:page-key": "NSCL-11",
+      "nccn:page-no": 31,
+      "@type": [],
+      "nccn:content": "Definitive local therapy not possible",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/214",
+        "http://nccn-guideline.org/nsclc/210"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/220"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/219",
+      "nccn:page-key": "NSCL-11",
+      "nccn:page-no": 31,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "Parenchymal sparing resection (preferred)k,eeorRadiationlorImage-guided thermal ablation (IGTA)m",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/217"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/221"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/220",
+      "nccn:page-key": "NSCL-11",
+      "nccn:page-no": 31,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "Palliative chemotherapy ± local palliative therapyorObserve",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/218"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/222"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/221",
+      "nccn:page-key": "NSCL-11",
+      "nccn:page-no": 31,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "Surveillance (NSCL-16)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/219"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/277"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/222",
+      "nccn:page-key": "NSCL-11",
+      "nccn:page-no": 31,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "Therapy for Recurrence and Metastasis (NSCL-17)orSystemic Therapy for Metastatic Disease (NSCL-18)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/220"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/285",
+        "http://nccn-guideline.org/nsclc/288",
+        "http://nccn-guideline.org/nsclc/295",
+        "http://nccn-guideline.org/nsclc/312"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/223",
+      "nccn:page-key": "NSCL-12",
+      "nccn:page-no": 32,
+      "@type": [
+        "CLINICALASSESSMENT"
+      ],
+      "nccn:content": "Stage IIIB (T1–2, N3)Stage IIIC (T3, N3)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/18",
+        "http://nccn-guideline.org/nsclc/26",
+        "http://nccn-guideline.org/nsclc/48",
+        "http://nccn-guideline.org/nsclc/147"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/224"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/224",
+      "nccn:page-key": "NSCL-12",
+      "nccn:page-no": 32,
+      "@type": [
+        "PRETREATMENT EVALUATION"
+      ],
+      "nccn:content": "• PFTs (if not previously done)• FDG PET/CT scanj (if not previously done)• Brain MRI with contrasto• Pathologic confirmation of N3 disease by:\u0017Mediastinoscopy\u0017Supraclavicular lymph node biopsy \u0017Thoracoscopy \u0017Needle biopsy \u0017Mediastinotomy \u0017EUS biopsy\u0017EBUS biopsy",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/223"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/227",
+        "http://nccn-guideline.org/nsclc/225",
+        "http://nccn-guideline.org/nsclc/226"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/225",
+      "nccn:page-key": "NSCL-12",
+      "nccn:page-no": 32,
+      "@type": [],
+      "nccn:content": "N3 negative",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/224"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/228"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/226",
+      "nccn:page-key": "NSCL-12",
+      "nccn:page-no": 32,
+      "@type": [],
+      "nccn:content": "N3 positive",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/224"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/229"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/227",
+      "nccn:page-key": "NSCL-12",
+      "nccn:page-no": 32,
+      "@type": [],
+      "nccn:content": "Metastatic disease",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/224"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/230"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/228",
+      "nccn:page-key": "NSCL-12",
+      "nccn:page-no": 32,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "Initial treatment for stage I–IIIA (NSCL-9)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/225"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/156",
+        "http://nccn-guideline.org/nsclc/162",
+        "http://nccn-guideline.org/nsclc/163",
+        "http://nccn-guideline.org/nsclc/165",
+        "http://nccn-guideline.org/nsclc/172"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/229",
+      "nccn:page-key": "NSCL-12",
+      "nccn:page-no": 32,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "Definitive concurrent chemoradiationl,t (category 1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/226"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/232"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/230",
+      "nccn:page-key": "NSCL-12",
+      "nccn:page-no": 32,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "Treatment for Metastasis limited sites (NSCL-14) or distant disease (NSCL-17)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/227"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/253",
+        "http://nccn-guideline.org/nsclc/285",
+        "http://nccn-guideline.org/nsclc/288",
+        "http://nccn-guideline.org/nsclc/295"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/231",
+      "nccn:page-key": "NSCL-12",
+      "nccn:page-no": 32,
+      "@type": [],
+      "nccn:content": "Surveillance (NSCL-16)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/232"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/277"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/232",
+      "nccn:page-key": "NSCL-12",
+      "nccn:page-no": 32,
+      "@type": [],
+      "nccn:content": "Durvalumabt,u (category 1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/229"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/231"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/233",
+      "nccn:page-key": "NSCL-13",
+      "nccn:page-no": 33,
+      "@type": [
+        "CLINICALASSESSMENT"
+      ],
+      "nccn:content": "Stage IIIB (T4, N2)Stage IIIC (T4, N3)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/19",
+        "http://nccn-guideline.org/nsclc/20"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/235"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/234",
+      "nccn:page-key": "NSCL-13",
+      "nccn:page-no": 33,
+      "@type": [
+        "CLINICALASSESSMENT"
+      ],
+      "nccn:content": "Stage IVA, M1a: pleural or pericardial effusion",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/19",
+        "http://nccn-guideline.org/nsclc/20"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/236"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/235",
+      "nccn:page-key": "NSCL-13",
+      "nccn:page-no": 33,
+      "@type": [
+        "PRETREATMENT EVALUATION"
+      ],
+      "nccn:content": "• FDG PET/CT scanj (if not previously done)• Brain MRI with contrasto• Pathologic confirmation  of N2–3 disease by either:\u0017Mediastinoscopy \u0017Supraclavicular lymph node biopsy \u0017Thoracoscopy \u0017Needle biopsy \u0017Mediastinotomy\u0017EUS biopsy\u0017EBUS biopsy",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/233",
+        "http://nccn-guideline.org/nsclc/235"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/243",
+        "http://nccn-guideline.org/nsclc/241",
+        "http://nccn-guideline.org/nsclc/235"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/236",
+      "nccn:page-key": "NSCL-13",
+      "nccn:page-no": 33,
+      "@type": [
+        "PRETREATMENT EVALUATION"
+      ],
+      "nccn:content": "• FDG PET/CT scanj (if not previously done)• Brain MRI with contrasto• Biomarker testing  (NSCL-18)• Thoracentesis or pericardiocentesis ± thoracoscopy if thoracentesis indeterminate",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/234"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/238",
+        "http://nccn-guideline.org/nsclc/237",
+        "http://nccn-guideline.org/nsclc/312"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/237",
+      "nccn:page-key": "NSCL-13",
+      "nccn:page-no": 33,
+      "@type": [],
+      "nccn:content": "Negativeff",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/236"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/240"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/238",
+      "nccn:page-key": "NSCL-13",
+      "nccn:page-no": 33,
+      "@type": [],
+      "nccn:content": "Positiveff",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/236"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/239"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/239",
+      "nccn:page-key": "NSCL-13",
+      "nccn:page-no": 33,
+      "@type": [],
+      "nccn:content": "Local therapy if necessary (eg, pleurodesis, ambulatory small catheter drainage, pericardial window) + treatment for stage IV disease solitary site or distant disease (NSCL-18)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/238"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/312"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/240",
+      "nccn:page-key": "NSCL-13",
+      "nccn:page-no": 33,
+      "@type": [],
+      "nccn:content": "Treatment according to TNM stage",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/237"
+      ],
+      "nccn:next": []
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/241",
+      "nccn:page-key": "NSCL-13",
+      "nccn:page-no": 33,
+      "@type": [],
+      "nccn:content": "Contralateral mediastinal node negative",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/235"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/245",
+        "http://nccn-guideline.org/nsclc/244"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/242",
+      "nccn:page-key": "NSCL-13",
+      "nccn:page-no": 33,
+      "@type": [],
+      "nccn:content": "Contralateral  mediastinal node positive(T4, N3)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/19",
+        "http://nccn-guideline.org/nsclc/20"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/248"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/243",
+      "nccn:page-key": "NSCL-13",
+      "nccn:page-no": 33,
+      "@type": [],
+      "nccn:content": "Metastatic disease",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/235"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/249"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/244",
+      "nccn:page-key": "NSCL-13",
+      "nccn:page-no": 33,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "Ipsilateral  mediastinal node negative (T4, N0–1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/241"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/246"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/245",
+      "nccn:page-key": "NSCL-13",
+      "nccn:page-no": 33,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "Ipsilateral  mediastinal node positive (T4, N2)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/241"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/247"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/246",
+      "nccn:page-key": "NSCL-13",
+      "nccn:page-no": 33,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "Treatment for Stage IIIA (NSCL-7)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/244"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/113",
+        "http://nccn-guideline.org/nsclc/114",
+        "http://nccn-guideline.org/nsclc/127",
+        "http://nccn-guideline.org/nsclc/131",
+        "http://nccn-guideline.org/nsclc/134"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/247",
+      "nccn:page-key": "NSCL-13",
+      "nccn:page-no": 33,
+      "@type": [],
+      "nccn:content": "Definitive concurrent chemoradiationl,t (category 1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/245"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/252"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/248",
+      "nccn:page-key": "NSCL-13",
+      "nccn:page-no": 33,
+      "@type": [
+        "INITIAL TREATMENT"
+      ],
+      "nccn:content": "Definitive concurrent chemoradiationl,t (category 1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/242"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/251"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/249",
+      "nccn:page-key": "NSCL-13",
+      "nccn:page-no": 33,
+      "@type": [],
+      "nccn:content": "See Treatment for Metastasis limited sites (NSCL-14) or distant disease (NSCL-17)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/243"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/253",
+        "http://nccn-guideline.org/nsclc/285",
+        "http://nccn-guideline.org/nsclc/288",
+        "http://nccn-guideline.org/nsclc/295"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/250",
+      "nccn:page-key": "NSCL-13",
+      "nccn:page-no": 33,
+      "@type": [],
+      "nccn:content": "Surveillance (NSCL-16)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/251",
+        "http://nccn-guideline.org/nsclc/252"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/277"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/251",
+      "nccn:page-key": "NSCL-13",
+      "nccn:page-no": 33,
+      "@type": [],
+      "nccn:content": "Durvalumabt,u (category 1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/248"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/250"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/252",
+      "nccn:page-key": "NSCL-13",
+      "nccn:page-no": 33,
+      "@type": [],
+      "nccn:content": "Durvalumabt,u (category 1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/247"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/250"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/253",
+      "nccn:page-key": "NSCL-14",
+      "nccn:page-no": 34,
+      "@type": [
+        "CLINICALASSESSMENTPRETREATMENT EVALUATION"
+      ],
+      "nccn:content": "Stage IVA, M1bgg",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/21",
+        "http://nccn-guideline.org/nsclc/90",
+        "http://nccn-guideline.org/nsclc/148",
+        "http://nccn-guideline.org/nsclc/154",
+        "http://nccn-guideline.org/nsclc/230",
+        "http://nccn-guideline.org/nsclc/249"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/254"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/254",
+      "nccn:page-key": "NSCL-14",
+      "nccn:page-no": 34,
+      "@type": [
+        "CLINICALASSESSMENTPRETREATMENT EVALUATION"
+      ],
+      "nccn:content": "• Biomarker testing (NSCL-18) If not previously done• Brain MRI with contrasto • FDG PET/CT scanj• Pathologic confirmation of metastatic lesion, if possible",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/253"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/263",
+        "http://nccn-guideline.org/nsclc/262",
+        "http://nccn-guideline.org/nsclc/312"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/255",
+      "nccn:page-key": "NSCL-14",
+      "nccn:page-no": 34,
+      "@type": [],
+      "nccn:content": "Limited metastases confirmed",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/262"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/260",
+        "http://nccn-guideline.org/nsclc/259"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/256",
+      "nccn:page-key": "NSCL-14",
+      "nccn:page-no": 34,
+      "@type": [],
+      "nccn:content": "Multiple metastases",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/262"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/257"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/257",
+      "nccn:page-key": "NSCL-14",
+      "nccn:page-no": 34,
+      "@type": [
+        "INITIAL TREATMENThh"
+      ],
+      "nccn:content": "Systemic Therapy for Metastatic Disease (NSCL-18)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/256"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/312"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/258",
+      "nccn:page-key": "NSCL-14",
+      "nccn:page-no": 34,
+      "@type": [
+        "INITIAL TREATMENThh"
+      ],
+      "nccn:content": "Stereotactic radiosurgery (SRS) aloneorSurgical resection, if symptomatic or warranted for diagnosis, followed by SRS or whole brain RT (WBRT)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/259",
+        "http://nccn-guideline.org/nsclc/258"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/258"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/259",
+      "nccn:page-key": "NSCL-14",
+      "nccn:page-no": 34,
+      "@type": [],
+      "nccn:content": "Braingg",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/255"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/258"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/260",
+      "nccn:page-key": "NSCL-14",
+      "nccn:page-no": 34,
+      "@type": [],
+      "nccn:content": "Other site",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/255"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/261"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/261",
+      "nccn:page-key": "NSCL-14",
+      "nccn:page-no": 34,
+      "@type": [
+        "INITIAL TREATMENThh"
+      ],
+      "nccn:content": "Treatment of Thoracic Disease (NSCL-15)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/260"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/269",
+        "http://nccn-guideline.org/nsclc/270"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/262",
+      "nccn:page-key": "NSCL-14",
+      "nccn:page-no": 34,
+      "@type": [
+        "CLINICALASSESSMENTPRETREATMENT EVALUATION"
+      ],
+      "nccn:content": "PS 0–2",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/254"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/256",
+        "http://nccn-guideline.org/nsclc/255"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/263",
+      "nccn:page-key": "NSCL-14",
+      "nccn:page-no": 34,
+      "@type": [
+        "CLINICALASSESSMENTPRETREATMENT EVALUATION"
+      ],
+      "nccn:content": "PS 3–4",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/254"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/264"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/264",
+      "nccn:page-key": "NSCL-14",
+      "nccn:page-no": 34,
+      "@type": [
+        "INITIAL TREATMENThh"
+      ],
+      "nccn:content": "Systemic Therapy for Metastatic Disease (NSCL-18)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/263"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/312"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/265",
+      "nccn:page-key": "NSCL-15",
+      "nccn:page-no": 35,
+      "@type": [],
+      "nccn:content": "T1–3, N0",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/276"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/266"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/266",
+      "nccn:page-key": "NSCL-15",
+      "nccn:page-no": 35,
+      "@type": [
+        "TREATMENT OF THORACIC DISEASE"
+      ],
+      "nccn:content": "• Pathologic mediastinal nodal evaluationh and • Surgical resectionk or SABRl,m ",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/265"
+      ],
+      "nccn:next": []
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/267",
+      "nccn:page-key": "NSCL-15",
+      "nccn:page-no": 35,
+      "@type": [],
+      "nccn:content": "Consider systemic therapy, if not already given (NSCL-18)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/268"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/312"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/268",
+      "nccn:page-key": "NSCL-15",
+      "nccn:page-no": 35,
+      "@type": [
+        "TREATMENT OF THORACIC DISEASE"
+      ],
+      "nccn:content": "Definitive local therapy for metastatic site,ii if not already given",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/274"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/267"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/269",
+      "nccn:page-key": "NSCL-15",
+      "nccn:page-no": 35,
+      "@type": [],
+      "nccn:content": "Definitive therapy for thoracic disease not feasible",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/261"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/271"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/270",
+      "nccn:page-key": "NSCL-15",
+      "nccn:page-no": 35,
+      "@type": [],
+      "nccn:content": "Definitive therapy for thoracic disease feasible",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/261"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/276"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/271",
+      "nccn:page-key": "NSCL-15",
+      "nccn:page-no": 35,
+      "@type": [
+        "TREATMENT OF THORACIC DISEASE"
+      ],
+      "nccn:content": "Systemic Therapy for Metastatic Disease (NSCL-18)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/269"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/312"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/272",
+      "nccn:page-key": "NSCL-15",
+      "nccn:page-no": 35,
+      "@type": [],
+      "nccn:content": "T1–3, N1",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/276"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/274"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/273",
+      "nccn:page-key": "NSCL-15",
+      "nccn:page-no": 35,
+      "@type": [],
+      "nccn:content": "T1–3, N2T4, N0–2",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/276"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/275"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/274",
+      "nccn:page-key": "NSCL-15",
+      "nccn:page-no": 35,
+      "@type": [
+        "TREATMENT OF THORACIC DISEASE"
+      ],
+      "nccn:content": "• Pathologic mediastinal nodal evaluationh and • Chemoradiationt (preferred) or Surgical resectionk or Definitive RTl ",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/272"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/268"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/275",
+      "nccn:page-key": "NSCL-15",
+      "nccn:page-no": 35,
+      "@type": [
+        "TREATMENT OF THORACIC DISEASE"
+      ],
+      "nccn:content": "Definitive chemoradiationt",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/273"
+      ],
+      "nccn:next": []
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/276",
+      "nccn:page-key": "NSCL-15",
+      "nccn:page-no": 35,
+      "@type": [],
+      "nccn:content": "Consider systemic therapy (NSCL-18)  and restagingaa to confirm non-progression or Proceed to definitive therapy",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/270"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/273",
+        "http://nccn-guideline.org/nsclc/265",
+        "http://nccn-guideline.org/nsclc/272",
+        "http://nccn-guideline.org/nsclc/312"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/277",
+      "nccn:page-key": "NSCL-16",
+      "nccn:page-no": 36,
+      "@type": [
+        "SURVEILLANCE AFTER COMPLETION OF DEFINITIVE THERAPY"
+      ],
+      "nccn:content": "No evidence of clinical/radiographic disease• Stage I–II (primary treatment included surgery ± chemotherapy)\u0017H\u0026P and chest CT ± contrast every 6 mo for 2–3 y, then H\u0026P and a low-dose non–contrast-enhanced chest CT annually• Stage I–II (primary treatment included RT) or stage III or stage IV (oligometastatic with all sites treated with definitive intent)\u0017H\u0026P and chest CTjj ± contrast every 3–6 mo for 3 y, then H\u0026P and chest CT ± contrast every 6 mo for 2 y, then H\u0026P and a low-dose non–contrast-enhanced chest CT annually ◊Residual or new radiographic abnormalities may require more frequent imaging• Smoking cessation advice, counseling, and pharmacotherapy• PET/CTkk or brain MRI is not routinely indicated• Cancer Survivorship Care (NSCL-G)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/33",
+        "http://nccn-guideline.org/nsclc/49",
+        "http://nccn-guideline.org/nsclc/50",
+        "http://nccn-guideline.org/nsclc/55",
+        "http://nccn-guideline.org/nsclc/105",
+        "http://nccn-guideline.org/nsclc/106",
+        "http://nccn-guideline.org/nsclc/108",
+        "http://nccn-guideline.org/nsclc/109",
+        "http://nccn-guideline.org/nsclc/128",
+        "http://nccn-guideline.org/nsclc/129",
+        "http://nccn-guideline.org/nsclc/130",
+        "http://nccn-guideline.org/nsclc/133",
+        "http://nccn-guideline.org/nsclc/174",
+        "http://nccn-guideline.org/nsclc/175",
+        "http://nccn-guideline.org/nsclc/178",
+        "http://nccn-guideline.org/nsclc/188",
+        "http://nccn-guideline.org/nsclc/192",
+        "http://nccn-guideline.org/nsclc/197",
+        "http://nccn-guideline.org/nsclc/198",
+        "http://nccn-guideline.org/nsclc/216",
+        "http://nccn-guideline.org/nsclc/221",
+        "http://nccn-guideline.org/nsclc/231",
+        "http://nccn-guideline.org/nsclc/250"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/282"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/278",
+      "nccn:page-key": "NSCL-16",
+      "nccn:page-no": 36,
+      "@type": [],
+      "nccn:content": "Locoregional recurrence",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/283"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/280"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/279",
+      "nccn:page-key": "NSCL-16",
+      "nccn:page-no": 36,
+      "@type": [],
+      "nccn:content": "Distant metastases",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/283"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/281"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/280",
+      "nccn:page-key": "NSCL-16",
+      "nccn:page-no": 36,
+      "@type": [],
+      "nccn:content": "Therapy for Recurrence and Metastasis (NSCL-17)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/278"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/285",
+        "http://nccn-guideline.org/nsclc/288",
+        "http://nccn-guideline.org/nsclc/295"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/281",
+      "nccn:page-key": "NSCL-16",
+      "nccn:page-no": 36,
+      "@type": [],
+      "nccn:content": "Therapy for Recurrence and Metastasis (NSCL-17)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/279"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/285",
+        "http://nccn-guideline.org/nsclc/288",
+        "http://nccn-guideline.org/nsclc/295"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/282",
+      "nccn:page-key": "NSCL-16",
+      "nccn:page-no": 36,
+      "@type": [],
+      "nccn:content": "Recurrence",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/277"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/283"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/283",
+      "nccn:page-key": "NSCL-16",
+      "nccn:page-no": 36,
+      "@type": [],
+      "nccn:content": "• PET/CT• Brain MRI with contrasto ",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/282"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/279",
+        "http://nccn-guideline.org/nsclc/278"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/284",
+      "nccn:page-key": "NSCL-17",
+      "nccn:page-no": 37,
+      "@type": [],
+      "nccn:content": "Locoregional recurrence or symptomatic local disease",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/284"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/290",
+        "http://nccn-guideline.org/nsclc/286",
+        "http://nccn-guideline.org/nsclc/289",
+        "http://nccn-guideline.org/nsclc/287",
+        "http://nccn-guideline.org/nsclc/284"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/285",
+      "nccn:page-key": "NSCL-17",
+      "nccn:page-no": 37,
+      "@type": [],
+      "nccn:content": "Distant metastases",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/90",
+        "http://nccn-guideline.org/nsclc/148",
+        "http://nccn-guideline.org/nsclc/154",
+        "http://nccn-guideline.org/nsclc/222",
+        "http://nccn-guideline.org/nsclc/230",
+        "http://nccn-guideline.org/nsclc/249",
+        "http://nccn-guideline.org/nsclc/280",
+        "http://nccn-guideline.org/nsclc/281"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/305",
+        "http://nccn-guideline.org/nsclc/300",
+        "http://nccn-guideline.org/nsclc/304",
+        "http://nccn-guideline.org/nsclc/302",
+        "http://nccn-guideline.org/nsclc/303"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/286",
+      "nccn:page-key": "NSCL-17",
+      "nccn:page-no": 37,
+      "@type": [],
+      "nccn:content": "Endobronchial obstruction",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/284"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/293"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/287",
+      "nccn:page-key": "NSCL-17",
+      "nccn:page-no": 37,
+      "@type": [],
+      "nccn:content": "Resectable recurrence",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/284"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/294"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/288",
+      "nccn:page-key": "NSCL-17",
+      "nccn:page-no": 37,
+      "@type": [],
+      "nccn:content": "Mediastinal lymph node recurrence",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/90",
+        "http://nccn-guideline.org/nsclc/148",
+        "http://nccn-guideline.org/nsclc/154",
+        "http://nccn-guideline.org/nsclc/222",
+        "http://nccn-guideline.org/nsclc/230",
+        "http://nccn-guideline.org/nsclc/249",
+        "http://nccn-guideline.org/nsclc/280",
+        "http://nccn-guideline.org/nsclc/281"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/292",
+        "http://nccn-guideline.org/nsclc/291"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/289",
+      "nccn:page-key": "NSCL-17",
+      "nccn:page-no": 37,
+      "@type": [],
+      "nccn:content": "Superior vena cava (SVC) obstruction",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/284"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/297"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/290",
+      "nccn:page-key": "NSCL-17",
+      "nccn:page-no": 37,
+      "@type": [],
+      "nccn:content": "Severe hemoptysis",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/284"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/297"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/291",
+      "nccn:page-key": "NSCL-17",
+      "nccn:page-no": 37,
+      "@type": [],
+      "nccn:content": "No prior RT",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/288",
+        "http://nccn-guideline.org/nsclc/291"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/291"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/292",
+      "nccn:page-key": "NSCL-17",
+      "nccn:page-no": 37,
+      "@type": [],
+      "nccn:content": "Prior RT",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/288"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/296"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/293",
+      "nccn:page-key": "NSCL-17",
+      "nccn:page-no": 37,
+      "@type": [
+        "THERAPY FOR RECURRENCE AND METASTASIS"
+      ],
+      "nccn:content": "Any combination of the following:• Laser/stent/other surgeryk• External-beam RT or brachytherapyl• Photodynamic therapy",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/286"
+      ],
+      "nccn:next": []
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/294",
+      "nccn:page-key": "NSCL-17",
+      "nccn:page-no": 37,
+      "@type": [
+        "THERAPY FOR RECURRENCE AND METASTASIS"
+      ],
+      "nccn:content": "• Reresection (preferred)k• External-beam RT or SABRl,m",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/287"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/310"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/295",
+      "nccn:page-key": "NSCL-17",
+      "nccn:page-no": 37,
+      "@type": [
+        "THERAPY FOR RECURRENCE AND METASTASIS"
+      ],
+      "nccn:content": "Concurrent chemoradiationl,t",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/90",
+        "http://nccn-guideline.org/nsclc/148",
+        "http://nccn-guideline.org/nsclc/154",
+        "http://nccn-guideline.org/nsclc/222",
+        "http://nccn-guideline.org/nsclc/230",
+        "http://nccn-guideline.org/nsclc/249",
+        "http://nccn-guideline.org/nsclc/280",
+        "http://nccn-guideline.org/nsclc/281"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/310"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/296",
+      "nccn:page-key": "NSCL-17",
+      "nccn:page-no": 37,
+      "@type": [
+        "THERAPY FOR RECURRENCE AND METASTASIS"
+      ],
+      "nccn:content": "Systemic therapy (NSCL-18)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/292"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/310",
+        "http://nccn-guideline.org/nsclc/312"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/297",
+      "nccn:page-key": "NSCL-17",
+      "nccn:page-no": 37,
+      "@type": [
+        "THERAPY FOR RECURRENCE AND METASTASIS"
+      ],
+      "nccn:content": "• Concurrent chemoradiationl,t  (if not previously given) ± SVC stent• External-beam RTl ± SVC stent• SVC stentAny combination of the following:• External-beam RT or brachytherapyl• Laser or photodynamic therapy or embolization• Surgery",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/289",
+        "http://nccn-guideline.org/nsclc/290"
+      ],
+      "nccn:next": []
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/298",
+      "nccn:page-key": "NSCL-17",
+      "nccn:page-no": 37,
+      "@type": [],
+      "nccn:content": "No evidence  of disseminated disease",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/310",
+        "http://nccn-guideline.org/nsclc/298"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/298"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/299",
+      "nccn:page-key": "NSCL-17",
+      "nccn:page-no": 37,
+      "@type": [],
+      "nccn:content": "Evidence of disseminated disease",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/310",
+        "http://nccn-guideline.org/nsclc/299"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/299"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/300",
+      "nccn:page-key": "NSCL-17",
+      "nccn:page-no": 37,
+      "@type": [],
+      "nccn:content": "Localized symptoms",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/285"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/301"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/301",
+      "nccn:page-key": "NSCL-17",
+      "nccn:page-no": 37,
+      "@type": [
+        "THERAPY FOR RECURRENCE AND METASTASIS"
+      ],
+      "nccn:content": "Palliative external-beam RTl",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/300"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/307"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/302",
+      "nccn:page-key": "NSCL-17",
+      "nccn:page-no": 37,
+      "@type": [],
+      "nccn:content": "Diffuse brain metastases",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/285"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/306"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/303",
+      "nccn:page-key": "NSCL-17",
+      "nccn:page-no": 37,
+      "@type": [],
+      "nccn:content": "Bone metastasis",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/285"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/307"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/304",
+      "nccn:page-key": "NSCL-17",
+      "nccn:page-no": 37,
+      "@type": [],
+      "nccn:content": "Limited metastasis",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/285"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/308"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/305",
+      "nccn:page-key": "NSCL-17",
+      "nccn:page-no": 37,
+      "@type": [],
+      "nccn:content": "Disseminated metastases",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/285"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/309"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/306",
+      "nccn:page-key": "NSCL-17",
+      "nccn:page-no": 37,
+      "@type": [
+        "THERAPY FOR RECURRENCE AND METASTASIS"
+      ],
+      "nccn:content": "Palliative external-beam RTl,hh",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/302"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/307"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/307",
+      "nccn:page-key": "NSCL-17",
+      "nccn:page-no": 37,
+      "@type": [
+        "THERAPY FOR RECURRENCE AND METASTASIS"
+      ],
+      "nccn:content": "• If risk of fracture, orthopedic stabilization + palliative external-beam RTl • Consider bisphosphonate therapy or denosumab",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/303",
+        "http://nccn-guideline.org/nsclc/301",
+        "http://nccn-guideline.org/nsclc/306"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/311"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/308",
+      "nccn:page-key": "NSCL-17",
+      "nccn:page-no": 37,
+      "@type": [
+        "THERAPY FOR RECURRENCE AND METASTASIS"
+      ],
+      "nccn:content": "Stage IV, M1b (NSCL-14)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/304"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/253"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/309",
+      "nccn:page-key": "NSCL-17",
+      "nccn:page-no": 37,
+      "@type": [
+        "THERAPY FOR RECURRENCE AND METASTASIS"
+      ],
+      "nccn:content": "Systemic Therapy (NSCL-18)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/305"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/312"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/310",
+      "nccn:page-key": "NSCL-17",
+      "nccn:page-no": 37,
+      "@type": [
+        "THERAPY FOR RECURRENCE AND METASTASIS"
+      ],
+      "nccn:content": "• Chest CT with contrast• Brain MRI with contrasto• PET/CT",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/294",
+        "http://nccn-guideline.org/nsclc/295",
+        "http://nccn-guideline.org/nsclc/296"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/299",
+        "http://nccn-guideline.org/nsclc/298"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/311",
+      "nccn:page-key": "NSCL-17",
+      "nccn:page-no": 37,
+      "@type": [
+        "ObservationorSystemic therapy (NSCL-18) (category 2B)",
+        "Systemic Therapy (NSCL-18)"
+      ],
+      "nccn:content": "Systemic Therapy (NSCL-18)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/307"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/312"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/312",
+      "nccn:page-key": "NSCL-18",
+      "nccn:page-no": 38,
+      "@type": [
+        "CLINICAL PRESENTATION"
+      ],
+      "nccn:content": "Advanced or metastatic disease",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/22",
+        "http://nccn-guideline.org/nsclc/202",
+        "http://nccn-guideline.org/nsclc/206",
+        "http://nccn-guideline.org/nsclc/222",
+        "http://nccn-guideline.org/nsclc/236",
+        "http://nccn-guideline.org/nsclc/239",
+        "http://nccn-guideline.org/nsclc/254",
+        "http://nccn-guideline.org/nsclc/257",
+        "http://nccn-guideline.org/nsclc/264",
+        "http://nccn-guideline.org/nsclc/267",
+        "http://nccn-guideline.org/nsclc/271",
+        "http://nccn-guideline.org/nsclc/276",
+        "http://nccn-guideline.org/nsclc/296",
+        "http://nccn-guideline.org/nsclc/309",
+        "http://nccn-guideline.org/nsclc/311"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/313"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/313",
+      "nccn:page-key": "NSCL-18",
+      "nccn:page-no": 38,
+      "@type": [
+        "CLINICAL PRESENTATION"
+      ],
+      "nccn:content": "• Establish histologic subtypea with adequate tissue for molecular testing (consider rebiopsyll or plasma testing if appropriate)• Smoking cessation counseling• Integrate palliative carec (NCCN Guidelines for Palliative Care)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/312"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/315",
+        "http://nccn-guideline.org/nsclc/314"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/314",
+      "nccn:page-key": "NSCL-18",
+      "nccn:page-no": 38,
+      "@type": [
+        "HISTOLOGIC SUBTYPEa"
+      ],
+      "nccn:content": "• Adenocarcinoma• Large cell• NSCLC not otherwise specified (NOS)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/313"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/316"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/315",
+      "nccn:page-key": "NSCL-18",
+      "nccn:page-no": 38,
+      "@type": [
+        "HISTOLOGIC SUBTYPEa"
+      ],
+      "nccn:content": "Squamous cell carcinoma",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/313"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/317"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/316",
+      "nccn:page-key": "NSCL-18",
+      "nccn:page-no": 38,
+      "@type": [
+        "BIOMARKER TESTINGmm"
+      ],
+      "nccn:content": "• Molecular testing, including:\u0017EGFR mutation (category 1), ALK (category 1),  KRAS, ROS1, BRAF, NTRK1/2/3, METex14 skipping, RET  \u0017Testing should be conducted as part of broad molecular profilingnn• PD-L1 testing (category 1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/314"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/318"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/317",
+      "nccn:page-key": "NSCL-18",
+      "nccn:page-no": 38,
+      "@type": [
+        "BIOMARKER TESTINGmm"
+      ],
+      "nccn:content": "• Consider molecular testing, including:oo\u0017EGFR mutation, ALK, KRAS, ROS1, BRAF, NTRK1/2/3, METex14 skipping, RET\u0017Testing should be conducted as part of broad molecular profilingnn• PD-L1 testing (category 1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/315"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/319"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/318",
+      "nccn:page-key": "NSCL-18",
+      "nccn:page-no": 38,
+      "@type": [],
+      "nccn:content": "Testing Results (NSCL-19)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/316"
+      ],
+      "nccn:next": []
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/319",
+      "nccn:page-key": "NSCL-18",
+      "nccn:page-no": 38,
+      "@type": [],
+      "nccn:content": "Testing Results (NSCL-19)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/317"
+      ],
+      "nccn:next": []
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/bb",
+      "@type": "nccn:Footnote",
+      "nccn:content": "Lesions with different cell types (eg, squamous cell carcinoma, adenocarcinoma) are usually different primary tumors. This analysis may be limited by small biopsy samples. However, lesions of the same cell type are not necessarily metastases. Single contralateral lung nodules with clinical, radiologic, or pathologic features suggestive of a synchronous primary lung cancer (eg, long disease-free survival, ground glass components, different histologic characteristics) that are amenable to local therapy should be considered as probable separate primary cancers and eligible for local therapy (NSCL-11). Multiple studies suggest that next-generation sequencing (NGS) testing with broad gene coverage may allow for unambiguous determination of clonal relatedness among separate lung nodules. "
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/dd",
+      "@type": "nccn:Footnote",
+      "nccn:content": "Lesions at low risk of becoming symptomatic can be observed (eg, small subsolid nodules with slow growth). However, if the lesion(s) becomes symptomatic or becomes high risk for producing symptoms (eg, subsolid nodules with accelerating growth or increasing solid component or increasing FDG uptake, even while small), treatment should be considered."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/ff",
+      "@type": "nccn:Footnote",
+      "nccn:content": "Most pleural (pericardial) effusions with lung cancer are a result of the tumor. In a few patients, however, multiple microscopic examinations of pleural (pericardial) fluid are negative for tumor, and fluid is non-bloody and not an exudate. If these elements and clinical judgment dictate that the effusion is not related to the tumor, the effusion should be excluded as a staging descriptor. "
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/hh",
+      "@type": "nccn:Footnote",
+      "nccn:content": "NCCN Guidelines for Central Nervous System Cancers."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/jj",
+      "@type": "nccn:Footnote",
+      "nccn:content": "Timing of CT scans within Guidelines parameters is a clinical decision."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/ll",
+      "@type": "nccn:Footnote",
+      "nccn:content": "If there is insufficient tissue to allow testing for all of EGFR, KRAS, ALK, ROS1, BRAF, NTRK1/2/3, MET, and RET, repeat biopsy and/or plasma testing should be done. If these are not feasible, treatment is guided by available results and, if unknown, these patients are treated as though they do not have driver oncogenes."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/nn",
+      "@type": "nccn:Footnote",
+      "nccn:content": "The NCCN NSCLC Guidelines Panel strongly advises broader molecular profiling with the goal of identifying rare driver mutations for which effective drugs may already be available, or to appropriately counsel patients regarding the availability of clinical trials. Broad molecular profiling is defined as molecular testing that identifies all biomarkers identified in NSCL-19 in either a single assay or a combination of a limited number of assays, and optimally also identifies emerging biomarkers (NSCL-I). Tiered approaches based on low prevalence of co-occurring biomarkers are acceptable. Broad molecular profiling is a key component of the improvement of care of patients with NSCLC. Emerging Biomarkers to Identify Patients for Therapies (NSCL-I)."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/aa",
+      "@type": "nccn:Footnote",
+      "nccn:content": "Chest CT with contrast and/or PET/CT to evaluate progression."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/cc",
+      "@type": "nccn:Footnote",
+      "nccn:content": "For guidance regarding the evaluation, workup, and management of subsolid pulmonary nodules, please see the diagnostic evaluation of a nodule suspicious for lung cancer (DIAG-1)."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/ee",
+      "@type": "nccn:Footnote",
+      "nccn:content": "Lung-sparing resection is preferred, but tumor distribution and institutional expertise should guide individual treatment planning. Patients should be evaluated in a multidisciplinary setting (ie, surgery, radiation oncology, medical oncology, interventional oncology)."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/gg",
+      "@type": "nccn:Footnote",
+      "nccn:content": "Including selected patients with stage M1c and limited number and volume of metastatic lesions amenable to definitive local therapy. Limited number is undefined but clinical trials have included 3 to 5 metastases."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/kk",
+      "@type": "nccn:Footnote",
+      "nccn:content": "FDG PET/CT is currently not warranted in the routine surveillance and follow-up of patients with NSCLC. However, many benign conditions (such as atelectasis, consolidation, and radiation fibrosis) are difficult to differentiate from neoplasm on standard CT imaging, and FDG PET/CT can be used to differentiate true malignancy in these settings. However, if FDG PET/CT is to be used as a problem-solving tool in patients after radiation therapy, histopathologic confirmation of recurrent disease is needed because areas previously treated with radiation therapy can remain FDG avid for up to 2 years."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/mm",
+      "@type": "nccn:Footnote",
+      "nccn:content": "Principles of Molecular and Biomarker Analysis (NSCL-H)."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/oo",
+      "@type": "nccn:Footnote",
+      "nccn:content": "Lam VK, et al. Clin Lung Cancer 2019;20:30-36.e3; Sands JM, et al. Lung Cancer 2020;140:35-41."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/a",
+      "@type": "nccn:Footnote",
+      "nccn:content": "Principles of Pathologic Review (NSCL-A)."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/b",
+      "@type": "nccn:Footnote",
+      "nccn:content": "Enhanced frailty or geriatric assessments may predict complications better following treatment modalities, particularly surgery. A preferred frailty assessment system has not been established."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/c",
+      "@type": "nccn:Footnote",
+      "nccn:content": "Temel JS, et al. N Engl J Med 2010;363:733-742."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/d",
+      "@type": "nccn:Footnote",
+      "nccn:content": "Based on the CT of the chest: Peripheral \u003d outer third of lung; Central \u003d inner two thirds of lung."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/e",
+      "@type": "nccn:Footnote",
+      "nccn:content": "T3, N0 related to size or satellite nodules."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/f",
+      "@type": "nccn:Footnote",
+      "nccn:content": "For patients considered to have stage IIB and stage III tumors, where more than one treatment modality (surgery, radiation therapy, or chemotherapy) is usually considered, a multidisciplinary evaluation should be performed."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/g",
+      "@type": "nccn:Footnote",
+      "nccn:content": "Testing is not listed in order of priority and is dependent on clinical circumstances, institutional processes, and judicious use of resources."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/h",
+      "@type": "nccn:Footnote",
+      "nccn:content": "Methods for evaluation include mediastinoscopy, mediastinotomy, EBUS, EUS, and CT-guided biopsy. An EBUS-TBNA negative for malignancy in a clinically (PET and/or CT) positive mediastinum should undergo subsequent mediastinoscopy prior to surgical resection."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/i",
+      "@type": "nccn:Footnote",
+      "nccn:content": "There is low likelihood of positive mediastinal lymph nodes when these nodes are CT and PET negative in solid tumors \u003c1 cm and purely non-solid tumors \u003c3 cm. Thus, pre-resection pathologic mediastinal evaluation is optional in these settings."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/j",
+      "@type": "nccn:Footnote",
+      "nccn:content": "PET/CT performed skull base to knees or whole body. Positive PET/CT scan findings for distant disease need pathologic or other radiologic confirmation. If PET/CT scan is positive in the mediastinum, lymph node status needs pathologic confirmation."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/k",
+      "@type": "nccn:Footnote",
+      "nccn:content": "Principles of Surgical Therapy (NSCL-B)."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/l",
+      "@type": "nccn:Footnote",
+      "nccn:content": "Principles of Radiation Therapy (NSCL-C)."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/m",
+      "@type": "nccn:Footnote",
+      "nccn:content": "Image-guided thermal ablation (IGTA) therapy (eg, cryotherapy, microwave, radiofrequency) may be an option for select patients not receiving SABR or definitive RT. Principles of Image-Guided Thermal Ablation Therapy (NSCL-D)."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/n",
+      "@type": "nccn:Footnote",
+      "nccn:content": "If empiric therapy is contemplated without tissue confirmation, multidisciplinary evaluation that at least includes interventional radiology, thoracic surgery, and interventional pulmonology is required to determine the safest and most efficient approach for biopsy, or to provide consensus that a biopsy is too risky or difficult and that the patient can proceed with therapy without tissue confirmation. (IJsseldijk MA, et al. J Thorac Oncol 2019;14:583-595.)"
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/o",
+      "@type": "nccn:Footnote",
+      "nccn:content": "If MRI is not possible, CT of head with contrast."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/p",
+      "@type": "nccn:Footnote",
+      "nccn:content": "After surgical evaluation, patients likely to receive adjuvant chemotherapy may be treated with induction chemotherapy as an alternative."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/q",
+      "@type": "nccn:Footnote",
+      "nccn:content": "Test for EGFR mutation (stages IB–IIIA) and PD-L1 status (stages II–IIIA) on surgical tissue or biopsy. Principles of Molecular and Biomarker Analysis (NSCL-H)."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/r",
+      "@type": "nccn:Footnote",
+      "nccn:content": "Systemic Therapy Regimens for Neoadjuvant and Adjuvant Therapy (NSCL-E)."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/s",
+      "@type": "nccn:Footnote",
+      "nccn:content": "Examples of high-risk factors may include poorly differentiated tumors (including lung neuroendocrine tumors [excluding well-differentiated neuroendocrine tumors]), vascular invasion, wedge resection, tumors \u003e4 cm, visceral pleural involvement, and unknown lymph node status (Nx). These factors independently may not be an indication and may be considered when determining treatment with adjuvant chemotherapy. "
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/t",
+      "@type": "nccn:Footnote",
+      "nccn:content": "Concurrent Chemoradiation Regimens (NSCL-F)."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/u",
+      "@type": "nccn:Footnote",
+      "nccn:content": "Durvalumab is not recommended for patients following definitive surgical resection."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/v",
+      "@type": "nccn:Footnote",
+      "nccn:content": "R0 \u003d no residual tumor, R1 \u003d microscopic residual tumor, R2 \u003d macroscopic residual tumor."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/w",
+      "@type": "nccn:Footnote",
+      "nccn:content": "For patients with EGFR exon 19 deletion or L858R who received previous adjuvant chemotherapy or are ineligible to receive platinum-based chemotherapy."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/x",
+      "@type": "nccn:Footnote",
+      "nccn:content": "Increasing size is an important variable when evaluating the need for adjuvant chemotherapy."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/y",
+      "@type": "nccn:Footnote",
+      "nccn:content": "For patients with PD-L1 ≥1% NSCLC who received previous adjuvant chemotherapy."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/z",
+      "@type": "nccn:Footnote",
+      "nccn:content": "MRI with contrast of spine + thoracic inlet for superior sulcus lesions abutting the spine, subclavian vessels, or brachial plexus."
+    }
+  ]
+}

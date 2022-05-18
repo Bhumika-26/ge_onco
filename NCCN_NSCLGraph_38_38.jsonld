@@ -1,0 +1,161 @@
+{
+  "@context": {
+    "nccn": "http://nccn-guideline.org/nsclc#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "nccn:next": {
+      "@type": "@id"
+    },
+    "nccn:prev": {
+      "@type": "@id"
+    },
+    "nccn:contains": {
+      "@type": "@id"
+    },
+    "nccn:reference": {
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "http://nccn-guideline.org/nsclc/0",
+      "nccn:page-key": "NSCL-18",
+      "nccn:page-no": 38,
+      "@type": [
+        "CLINICAL PRESENTATION"
+      ],
+      "nccn:content": "Advanced or metastatic disease",
+      "nccn:prev": [],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/1"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/1",
+      "nccn:page-key": "NSCL-18",
+      "nccn:page-no": 38,
+      "@type": [
+        "CLINICAL PRESENTATION"
+      ],
+      "nccn:content": "• Establish histologic subtypea with adequate tissue for molecular testing (consider rebiopsyll or plasma testing if appropriate)• Smoking cessation counseling• Integrate palliative carec (NCCN Guidelines for Palliative Care)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/0"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/3",
+        "http://nccn-guideline.org/nsclc/2"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/2",
+      "nccn:page-key": "NSCL-18",
+      "nccn:page-no": 38,
+      "@type": [
+        "HISTOLOGIC SUBTYPEa"
+      ],
+      "nccn:content": "• Adenocarcinoma• Large cell• NSCLC not otherwise specified (NOS)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/1"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/4"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/3",
+      "nccn:page-key": "NSCL-18",
+      "nccn:page-no": 38,
+      "@type": [
+        "HISTOLOGIC SUBTYPEa"
+      ],
+      "nccn:content": "Squamous cell carcinoma",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/1"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/5"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/4",
+      "nccn:page-key": "NSCL-18",
+      "nccn:page-no": 38,
+      "@type": [
+        "BIOMARKER TESTINGmm"
+      ],
+      "nccn:content": "• Molecular testing, including:\u0017EGFR mutation (category 1), ALK (category 1),  KRAS, ROS1, BRAF, NTRK1/2/3, METex14 skipping, RET  \u0017Testing should be conducted as part of broad molecular profilingnn• PD-L1 testing (category 1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/2"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/6"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/5",
+      "nccn:page-key": "NSCL-18",
+      "nccn:page-no": 38,
+      "@type": [
+        "BIOMARKER TESTINGmm"
+      ],
+      "nccn:content": "• Consider molecular testing, including:oo\u0017EGFR mutation, ALK, KRAS, ROS1, BRAF, NTRK1/2/3, METex14 skipping, RET\u0017Testing should be conducted as part of broad molecular profilingnn• PD-L1 testing (category 1)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/3"
+      ],
+      "nccn:next": [
+        "http://nccn-guideline.org/nsclc/7"
+      ]
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/6",
+      "nccn:page-key": "NSCL-18",
+      "nccn:page-no": 38,
+      "@type": [],
+      "nccn:content": "Testing Results (NSCL-19)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/4"
+      ],
+      "nccn:next": []
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/7",
+      "nccn:page-key": "NSCL-18",
+      "nccn:page-no": 38,
+      "@type": [],
+      "nccn:content": "Testing Results (NSCL-19)",
+      "nccn:prev": [
+        "http://nccn-guideline.org/nsclc/5"
+      ],
+      "nccn:next": []
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/ll",
+      "@type": "nccn:Footnote",
+      "nccn:content": "If there is insufficient tissue to allow testing for all of EGFR, KRAS, ALK, ROS1, BRAF, NTRK1/2/3, MET, and RET, repeat biopsy and/or plasma testing should be done. If these are not feasible, treatment is guided by available results and, if unknown, these patients are treated as though they do not have driver oncogenes."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/mm",
+      "@type": "nccn:Footnote",
+      "nccn:content": "Principles of Molecular and Biomarker Analysis (NSCL-H)."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/nn",
+      "@type": "nccn:Footnote",
+      "nccn:content": "The NCCN NSCLC Guidelines Panel strongly advises broader molecular profiling with the goal of identifying rare driver mutations for which effective drugs may already be available, or to appropriately counsel patients regarding the availability of clinical trials. Broad molecular profiling is defined as molecular testing that identifies all biomarkers identified in NSCL-19 in either a single assay or a combination of a limited number of assays, and optimally also identifies emerging biomarkers (NSCL-I). Tiered approaches based on low prevalence of co-occurring biomarkers are acceptable. Broad molecular profiling is a key component of the improvement of care of patients with NSCLC. Emerging Biomarkers to Identify Patients for Therapies (NSCL-I)."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/oo",
+      "@type": "nccn:Footnote",
+      "nccn:content": "Lam VK, et al. Clin Lung Cancer 2019;20:30-36.e3; Sands JM, et al. Lung Cancer 2020;140:35-41."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/a",
+      "@type": "nccn:Footnote",
+      "nccn:content": "Principles of Pathologic Review (NSCL-A)."
+    },
+    {
+      "@id": "http://nccn-guideline.org/nsclc/c",
+      "@type": "nccn:Footnote",
+      "nccn:content": "Temel JS, et al. N Engl J Med 2010;363:733-742."
+    }
+  ]
+}
